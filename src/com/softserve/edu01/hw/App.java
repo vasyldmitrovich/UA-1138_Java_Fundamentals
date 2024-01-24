@@ -20,5 +20,8 @@ public class App {
         String name = scanner.nextLine();
 
         System.out.println("Your name is: " + name);
+        System.out.println("Input your surname");
+        String surname = scanner.nextLine();
+        System.out.println("Your surname is: " + surname);
     }
 }
