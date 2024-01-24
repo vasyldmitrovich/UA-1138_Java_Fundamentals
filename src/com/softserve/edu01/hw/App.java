@@ -4,10 +4,12 @@ import java.util.Scanner;
 
 public class App {
     public static Scanner scanner = new Scanner(System.in);
+
     public static void main(String[] args) {
         App.task1();
         task2();
     }
+
     public static void task1() {
         System.out.println("Hello. What is your name?");
         String name = scanner.nextLine();
@@ -16,6 +18,7 @@ public class App {
         System.out.println("Hello " + name);
         System.out.println("You are " + age);
     }
+
     public static void task2() {
         System.out.println("Input first string");
         String first = scanner.nextLine();
