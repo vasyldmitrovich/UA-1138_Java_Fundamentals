@@ -13,6 +13,7 @@ public class App {
         App.task1();
 
         // Task 2...
+        App.task2();
     }
 
     public static void task1 () {
@@ -20,5 +21,8 @@ public class App {
         String name = scanner.nextLine();
 
         System.out.println("Your name is: " + name);
+    }
+    public static void task2 () {
+
     }
 }
