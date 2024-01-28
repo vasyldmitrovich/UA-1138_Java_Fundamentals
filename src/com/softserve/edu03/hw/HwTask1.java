@@ -21,8 +21,7 @@ public class HwTask1 {
     //without cheching of existence trian
     private static double getArea(int first, int second, int third) {
         double halfPerim = (double) (first + second + third) / 2;
-        double area = Math.sqrt(halfPerim * (halfPerim - first) * (halfPerim - second) * (halfPerim - third));
-        return area;
+        return Math.sqrt(halfPerim * (halfPerim - first) * (halfPerim - second) * (halfPerim - third));
     }
 
 }
