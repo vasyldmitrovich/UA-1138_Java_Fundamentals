@@ -17,15 +17,15 @@ public class HomeTask03 {
         person[2].changeName("Jake", "Sali"); // test change name
         person[2].output();
 
-        Person person_new = new Person("Andy", "Ray"); // test Person constructor
-        person_new.setBirthYear(1990);
-        person_new.output();
+        Person personNew = new Person("Andy", "Ray"); // test Person constructor
+        personNew.setBirthYear(1990);
+        personNew.output();
 
-        Person person_new2 = new Person(); // test Person constructor without params
-        person_new2.setFirstName("Name");
-        person_new2.setLastName("Last Name");
-        person_new2.setBirthYear(1990);
-        person_new2.output();
+        Person personNew2 = new Person(); // test Person constructor without params
+        personNew2.setFirstName("Name");
+        personNew2.setLastName("Last Name");
+        personNew2.setBirthYear(1990);
+        personNew2.output();
     }
 }
 
