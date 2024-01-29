@@ -4,32 +4,28 @@ import java.util.Scanner;
 
 public class HomeTask03 {
     public static void main(String[] args){
-        System.out.println("Enter information about person 1:");
-        Person person1 = new Person();
-        person1.input();
+        Person[] person = new Person[5]; // Array for our data
+        for (int i = 0; i < 5; i++){
+            System.out.println("\nEnter information about person " + (i + 1) + ":"); // i+1 because starting from 0
+            person[i] = new Person(); // publish new person to the array
+            person[i].input(); // input data for person
+        }
 
-        System.out.println("Enter information about person 2:");
-        Person person2 = new Person();
-        person2.input();
+        for (int i = 0; i < 5; i++) {
+            person[i].output(); // output data for every person from array
+        }
+        person[2].changeName("Jake", "Sali"); // test change name
+        person[2].output();
 
-        System.out.println("Enter information about person 3:");
-        Person person3 = new Person();
-        person3.input();
+        Person person_new = new Person("Andy", "Ray"); // test Person constructor
+        person_new.setBirthYear(1990);
+        person_new.output();
 
-        System.out.println("Enter information about person 4:");
-        Person person4 = new Person();
-        person4.input();
-
-        System.out.println("Enter information about person 5:");
-        Person person5 = new Person();
-        person5.input();
-
-
-        person1.output();
-        person2.output();
-        person3.output();
-        person4.output();
-        person5.output();
+        Person person_new2 = new Person(); // test Person constructor without params
+        person_new2.setFirstName("Name");
+        person_new2.setLastName("Last Name");
+        person_new2.setBirthYear(1990);
+        person_new2.output();
     }
 }
 
@@ -58,17 +54,18 @@ class Person{
         this.birthYear = scanner.nextInt();
     }
     public void output(){
-        System.out.println("Name: " + getFirstName() + " " + getLastName());
+        System.out.println("\nName: " + getFirstName() + " " + getLastName());
         System.out.println("Birth year: " + getBirthYear());
         System.out.println("Age: " + getAge());
     }
 
     public int getAge() {
         return 2024 - birthYear;
-    }
+    } // This is not entirely correct, since we have 365 days in a year, but in the task we only need to enter the year
 
-    public void changeName(){
-        input(); // No ideas
+    public void changeName(String firstName, String lastName){
+        setFirstName(firstName);
+        setLastName(lastName);
     }
     public String getFirstName() {
         return firstName;
