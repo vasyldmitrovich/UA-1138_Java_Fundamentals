@@ -22,4 +22,10 @@ public class App {
 
         System.out.println("Your name is: " + name);
     }
+
+    public class Test {
+        public Test(Object... args) {
+        }
+    }
+
 }
