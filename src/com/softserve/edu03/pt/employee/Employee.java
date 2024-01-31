@@ -87,6 +87,7 @@ public class Employee {
     public String toString() {
         return "Employee{" + "name='" + name +
                 '\'' + ", rate=" + rate +
-                ", hours=" + hours + '}';
+                ", hours=" + hours + ", salary=" + getSalary() +
+                ", bonuses=" + getBonuses() + '}';
     }
 }

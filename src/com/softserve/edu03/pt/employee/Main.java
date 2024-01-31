@@ -21,6 +21,10 @@ public class Main {
         Employee employee3 = new Employee();
         Employee.promptParameters(employee3);
 
+        System.out.println("Empl1: " + employee1);
+        System.out.println("Empl2: " + employee2);
+        System.out.println("Empl3: " + employee3);
+
         printEmployeeStats();
     }
 }
