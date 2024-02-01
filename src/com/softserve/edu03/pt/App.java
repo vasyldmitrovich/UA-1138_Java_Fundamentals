@@ -18,9 +18,9 @@ public class App {
         System.out.println("The average of " + first + " and " + second + " is " + average);
 
         // Task 2
-        Employee employee1 = new Employee("Vitalii", 5, 140);
-        Employee employee2 = new Employee("Petya", 3, 150);
-        Employee employee3 = new Employee("Sasha", 7, 161);
+        Employee employee1 = new Employee("Vitalii", 10, 10);
+        Employee employee2 = new Employee("Petya", 10, 10);
+        Employee employee3 = new Employee("Sasha", 10, 10);
         System.out.println(Employee.getTotalSum());
     }
 

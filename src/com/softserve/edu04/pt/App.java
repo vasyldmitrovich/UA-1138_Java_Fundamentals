@@ -7,13 +7,13 @@ import static java.lang.System.in;
 public class App {
     public static void main(String[] args) {
         // Task 1
-//        App.task1();
+        App.task1();
 
         // Task 2
-//        App.task2();
+        App.task2();
 
         // Task 3
-//        App.task3();
+        App.task3();
 
         //Task 4
         Product product1 = new Product("apple", 3, 4);
@@ -88,7 +88,13 @@ public class App {
     }
 
     public enum DayOfTheWeek {
-        DAY_1("Понеділок", "Monday"), DAY_2("Вівторок", "Tuesday"), DAY_3("Середа", "Wednesday"), DAY_4("Четвер", "Thursday"), DAY_5("П'ятниця", "Friday"), DAY_6("Субота", "Saturday"), DAY_7("Неділя", "Sunday");
+        DAY_1("Понеділок", "Monday"),
+        DAY_2("Вівторок", "Tuesday"),
+        DAY_3("Середа", "Wednesday"),
+        DAY_4("Четвер", "Thursday"),
+        DAY_5("П'ятниця", "Friday"),
+        DAY_6("Субота", "Saturday"),
+        DAY_7("Неділя", "Sunday");
         private final String uaName;
         private final String enName;
 

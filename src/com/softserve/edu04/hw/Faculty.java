@@ -38,9 +38,6 @@ public class Faculty {
         CurrentSeason(String seasonName) {
             this.seasonName = seasonName;
         }
-        public void printSeasonName() {
-            out.println(seasonName);
-        }
         public void printGetSemester() {
             switch (this) {
                 case AUTUMN -> System.out.println("First semester");

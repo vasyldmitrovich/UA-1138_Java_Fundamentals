@@ -3,32 +3,27 @@ package com.softserve.edu03.pt;
 public class Employee {
     public static final double BONUS_RATE = 0.1;
     private String name;
-    private int rate;
+    private double rate;
     private int hours;
     private static double totalSum;
 
-    public Employee(String name, int rate, int hours) {
+    public Employee() {
+
+    }
+
+    public Employee(String name, double rate) {
         this.name = name;
-        this.rate = rate;
-        this.hours = hours;
-        totalSum += getSalary() + getBonuses();
+        setRate(rate);
     }
 
-    public int getSalary() {
-        return rate * hours;
+    public Employee(String name, double rate, int hours) {
+        this.name = name;
+        setRate(rate);
+        setHours(hours);
     }
 
-    public double getBonuses() {
-        return getSalary() * BONUS_RATE;
-    }
-
-    @Override
-    public String toString() {
-        return "Employee{" +
-                "name='" + name + '\'' +
-                ", rate=" + rate +
-                ", hours=" + hours +
-                '}';
+    public double getSalary() {
+        return getRate() * getHours();
     }
 
     public String getName() {
@@ -39,12 +34,15 @@ public class Employee {
         this.name = name;
     }
 
-    public int getRate() {
+    public double getRate() {
         return rate;
     }
 
-    public void setRate(int rate) {
+    public void setRate(double rate) {
+        double oldSalary = getSalary();
         this.rate = rate;
+        double newSalary = getSalary();
+        totalSum += newSalary - oldSalary;
     }
 
     public int getHours() {
@@ -52,14 +50,18 @@ public class Employee {
     }
 
     public void setHours(int hours) {
+        double oldSalary = getSalary();
         this.hours = hours;
+        double newSalary = getSalary();
+        totalSum += newSalary - oldSalary;
     }
 
     public static double getTotalSum() {
-        return totalSum;
+        return (1+BONUS_RATE) * totalSum;
     }
 
-    public static void setTotalSum(int totalSum) {
-        Employee.totalSum = totalSum;
+    @Override
+    public String toString() {
+        return "Employee{" + "name='" + name + '\'' + ", rate=" + rate + ", hours=" + hours + '}';
     }
 }

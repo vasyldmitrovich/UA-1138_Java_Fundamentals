@@ -1,5 +1,6 @@
 package com.softserve.edu04.hw;
 
+import java.sql.Array;
 import java.util.Scanner;
 
 import static java.lang.System.in;
@@ -8,18 +9,18 @@ public class App {
     public static Scanner scanner = new Scanner(in);
     public static void main(String[] args) {
         // Task 1
-//        App.task1();
+        App.task1();
 
         // Task 2
-//        App.task2();
+        App.task2();
 
         // Task 3
-//        App.task3();
+        App.task3();
 
         // Task 4
-//        Faculty faculty = Faculty.createFaculty();
-//        faculty.getCurrentSeason().printGetSemester();
-//        System.out.println(faculty.getNumberOfStudents());
+        Faculty faculty = Faculty.createFaculty();
+        faculty.getCurrentSeason().printGetSemester();
+        System.out.println(faculty.getNumberOfStudents());
 
         // Task 5
         Dog dog1 = new Dog("Bobik", Dog.Breed.BULLDOG, 5);
