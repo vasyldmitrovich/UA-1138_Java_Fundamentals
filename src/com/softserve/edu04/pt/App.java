@@ -13,15 +13,37 @@ public class App {
 //        App.task2();
 
         // Task 3
-        App.task3();
+//        App.task3();
 
         //Task 4
-        Product product1 = new Product("apple", 3, 1);
+        Product product1 = new Product("apple", 3, 4);
         Product product2 = new Product("banana", 4, 2);
         Product product3 = new Product("orange", 5, 3);
-        Product product4 = new Product("kiwi", 8, 4);
+        Product product4 = new Product("kiwi", 8, 1);
 
-//        if (product1.getPrice()> product2.getPrice())
+        Product theMostExpensive = product1;
+        if (product2.getPrice() > theMostExpensive.getPrice()) {
+            theMostExpensive = product2;
+        }
+        if (product3.getPrice() > theMostExpensive.getPrice()) {
+            theMostExpensive = product3;
+        }
+        if (product4.getPrice() > theMostExpensive.getPrice()) {
+            theMostExpensive = product4;
+        }
+        System.out.println("The most expensive product is " + theMostExpensive.getName() + " its price is " + theMostExpensive.getPrice());
+
+        Product theBiggestQuantity = product1;
+        if (product2.getQuantity() > theBiggestQuantity.getQuantity()) {
+            theBiggestQuantity = product2;
+        }
+        if (product3.getQuantity() > theBiggestQuantity.getQuantity()) {
+            theBiggestQuantity = product3;
+        }
+        if (product4.getQuantity() > theBiggestQuantity.getQuantity()) {
+            theBiggestQuantity = product4;
+        }
+        System.out.println("The biggest quantity has: " + theBiggestQuantity.getName());
 
     }
 
