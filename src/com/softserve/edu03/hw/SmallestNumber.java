@@ -21,3 +21,4 @@ public class SmallestNumber {
         }
         return smallest;
     }
+}
