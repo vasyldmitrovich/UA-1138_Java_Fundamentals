@@ -7,6 +7,9 @@ import static java.lang.System.in;
 public class App {
     public static Scanner scanner = new Scanner(in);
     public static void main(String[] args) {
+        //Delete unneeded comments
+
+
         // Task 1
 //        App.task1();
 
@@ -25,6 +28,8 @@ public class App {
         Dog dog1 = new Dog("Bobik", Dog.Breed.BULLDOG, 5);
         Dog dog2 = new Dog("Sharik", Dog.Breed.BOXER, 6);
         Dog dog3 = new Dog("Laika", Dog.Breed.BEAGLE, 7);
+
+        //Move this logic co some method and call this method here
         boolean isDoubleName = dog1.equals(dog2) ||
                                dog1.equals(dog3) ||
                                dog2.equals(dog3) ||
@@ -106,7 +111,7 @@ public class App {
         }
     }
 
-    public enum HTTPError {
+    public enum HTTPError {//Move to file HTTPError.java
         ERROR_404, ERROR_502, ERROR_500;
 
         public void printErrorName() {

@@ -8,7 +8,7 @@ import java.util.*;
 
 public class App {
     static Scanner scanner = new Scanner(System.in);
-    public static void main(String[] args) {
+    public static void main(String[] args) {//All good but uncomment task 1 and task 2
         // Task 1
 //        App.task1();
 

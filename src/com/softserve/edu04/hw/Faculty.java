@@ -14,7 +14,7 @@ public class Faculty {
         this.currentSeason = currentSeason;
     }
 
-    public static Faculty createFaculty() {
+    public static Faculty createFaculty() {//Move this method to class for example App.java
         Scanner scanner = new Scanner(in);
         System.out.println("Enter amount of students");
         int numberOfStudents = scanner.nextInt();
@@ -32,7 +32,7 @@ public class Faculty {
         return new Faculty(numberOfStudents, currentSeason);
     }
 
-    public enum CurrentSeason{
+    public enum CurrentSeason{//Move to file CurrentSeason.java not here
         WINTER("Winter"), SPRING("Spring"), SUMMER("Summer"), AUTUMN("Autumn");
         private String seasonName;
         CurrentSeason(String seasonName) {

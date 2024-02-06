@@ -8,16 +8,20 @@ public class Person {
     private String lastName;
     private int birthYear;
 
+
+    //Add constructor without parameters
+
+    public Person(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
     public Person(String firstName, String lastName, int birthYear) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.birthYear = birthYear;
     }
 
-    public Person(String firstName, String lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
 
     public int getAge() {
         Calendar rightNow = Calendar.getInstance();

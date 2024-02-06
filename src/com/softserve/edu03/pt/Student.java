@@ -1,6 +1,9 @@
 package com.softserve.edu03.pt;
 
 import java.util.Scanner;
+
+//If this code not needed, delete it
+
 //        Locale.setDefault(Locale.ROOT);
 //        Student.printStudentStats();
 
@@ -28,7 +31,7 @@ public class Student {
 
     public Student() {
         this("N/A", 0);
-    }
+    }//This is not needed because this field will have this value by default
 
     public Student(String name, int rating) {
         this.name = name;
@@ -70,7 +73,7 @@ public class Student {
      */
     public boolean betterStudent(Student other) {
         return rating > other.rating;
-    }
+    }//If you want to show execution this method, call this method in main method
 
     @Override
     public String toString() {

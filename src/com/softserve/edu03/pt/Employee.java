@@ -7,6 +7,8 @@ public class Employee {
     private int hours;
     private static double totalSum;
 
+    //Add constructor without parameters
+
     public Employee(String name, int rate, int hours) {
         this.name = name;
         this.rate = rate;
@@ -22,6 +24,7 @@ public class Employee {
         return getSalary() * BONUS_RATE;
     }
 
+    //Move this method after getters and setters
     @Override
     public String toString() {
         return "Employee{" +

@@ -7,12 +7,15 @@ public class Dog {
     private Breed breed;
     private int age;
 
+    //Add constructor without parameters
+
     public Dog(String name, Breed breed, int age) {
         this.name = name;
         this.breed = breed;
         this.age = age;
     }
 
+    //Move this method after getters and setters
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -22,7 +25,7 @@ public class Dog {
     }
 
 
-    public enum Breed{
+    public enum Breed{//This enum move to file Breed.java
         BULLDOG, BOXER, BEAGLE;
     }
 
