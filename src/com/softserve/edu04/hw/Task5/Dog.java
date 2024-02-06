@@ -1,4 +1,4 @@
-package com.softserve.edu04.hw;
+package com.softserve.edu04.hw.Task5;
 
 import java.util.Objects;
 
@@ -7,23 +7,13 @@ public class Dog {
     private Breed breed;
     private int age;
 
+    public Dog() {
+    }
+
     public Dog(String name, Breed breed, int age) {
         this.name = name;
         this.breed = breed;
         this.age = age;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Dog dog = (Dog) o;
-        return Objects.equals(name, dog.name);
-    }
-
-
-    public enum Breed{
-        BULLDOG, BOXER, BEAGLE;
     }
 
     public String getName() {
@@ -48,5 +38,13 @@ public class Dog {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Dog dog = (Dog) o;
+        return Objects.equals(name, dog.name);
     }
 }

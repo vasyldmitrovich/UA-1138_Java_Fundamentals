@@ -1,4 +1,4 @@
-package com.softserve.edu03.hw;
+package com.softserve.edu03.hw.Task3;
 
 import java.util.Calendar;
 import java.util.Scanner;
@@ -8,15 +8,17 @@ public class Person {
     private String lastName;
     private int birthYear;
 
-    public Person(String firstName, String lastName, int birthYear) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.birthYear = birthYear;
+    public Person() {
     }
 
     public Person(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
+    }
+    public Person(String firstName, String lastName, int birthYear) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.birthYear = birthYear;
     }
 
     public int getAge() {

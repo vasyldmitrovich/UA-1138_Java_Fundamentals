@@ -1,9 +1,9 @@
-package com.softserve.edu05.hw.Task3;
+package com.softserve.edu05.hw;
 
 public class Car {
-    private String type;
-    private int yearOfProduction;
-    private int engineCapacity;
+    private final String type;
+    private final int yearOfProduction;
+    private final int engineCapacity;
 
     public Car(String type, int yearOfProduction, int engineCapacity) {
         this.type = type;

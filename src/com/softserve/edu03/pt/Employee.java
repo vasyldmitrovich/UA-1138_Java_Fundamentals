@@ -8,7 +8,6 @@ public class Employee {
     private static double totalSum;
 
     public Employee() {
-
     }
 
     public Employee(String name, double rate) {
