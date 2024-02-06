@@ -13,7 +13,7 @@ public class TriangleArea {
         double height = scanner.nextDouble();
 
         double area = calculateTriangleArea(base, height);
-        System.out.println("The area of the triangle is: " + area);
+        System.out.println("The area of the triangle is: " + area);//You can call method here
 
         scanner.close();
     }

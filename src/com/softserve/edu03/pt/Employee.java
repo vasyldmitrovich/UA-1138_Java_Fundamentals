@@ -7,6 +7,8 @@ public class Employee {
     private double hours;
     private static double totalSum;
 
+    //Add constructor without parameters
+
     public Employee(String name, double rate, double hours) {
         this.name = name;
         this.rate = rate;
