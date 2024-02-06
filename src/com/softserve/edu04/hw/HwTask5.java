@@ -43,6 +43,7 @@ class Dog {
     private final String breed;
     private final int age;
 
+    //Add constructor without parameters
     public Dog(String name, String breed, int age) {
         this.name = name;
         this.breed = breed;
@@ -71,7 +72,7 @@ class Dog {
     }
 }
 
-enum Breed {
+enum Breed {//Move to file Breed.java
     B1("corgis"),
     B2("husky"),
     B3("spitz");

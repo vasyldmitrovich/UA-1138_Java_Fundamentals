@@ -21,7 +21,7 @@ public class PrTask2 {
     }
 }
 
-class Employee {
+class Employee {//Move to file Employee.java
     private String name;
     private int rate;
     private int hours;
@@ -57,7 +57,7 @@ class Employee {
 
     public double getSalary() {
         return getHours() * getRate();
-    }
+    }//Good
 
     public double getBonuses() {
         return getSalary() * BONUS_RATE;

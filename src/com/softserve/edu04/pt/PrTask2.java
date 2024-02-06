@@ -8,7 +8,7 @@ public class PrTask2 {
     public static void main(String[] args) {
         System.out.println("Enter the number of a day of a week: ");
         int dayNumber = SCANNER.nextInt();
-        DayOfWeek1 dayOfWeek = DayOfWeek1.getByNumber(dayNumber);
+        DayOfWeek1 dayOfWeek = DayOfWeek1.getByNumber(dayNumber);//If in method you throw exception use try catch construction here
         System.out.println("This number corresponds to: " + dayOfWeek.englishName);
         System.out.println("Цей номер відповідає дню:  " + dayOfWeek.ukrainianName);
     }

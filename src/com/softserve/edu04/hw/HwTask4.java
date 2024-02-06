@@ -13,12 +13,12 @@ public class HwTask4 {
 
         System.out.println("Enter the season (WINTER / SPRING / SUMMER / AUTUMN): ");
         String inputSeason = SCANNER.nextLine();
-        System.out.println(Season.getForSeason(inputSeason));
+        System.out.println(Season.getForSeason(inputSeason));//This method could throw exception use try catch construction here
     }
 }
 
 class Faculty {
-    private final int numberOfStudents;
+    private final int numberOfStudents;//Why field is final?
 
     public Faculty(int numberOfStudents) {
         this.numberOfStudents = numberOfStudents;

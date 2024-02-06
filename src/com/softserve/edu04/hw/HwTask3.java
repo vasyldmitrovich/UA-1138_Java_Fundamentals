@@ -7,11 +7,12 @@ public class HwTask3 {
     }
 }
 
-enum HTTPError {
+enum HTTPError {//Move to file HttpError.java
     HE_400(400, "Bad Request"),
     HE_401(401, "Unauthorized"),
     HE_402(402, "Payment Required"),
     HE_403(403, "Forbidden");
+
     final int code;
     final String description;
 
