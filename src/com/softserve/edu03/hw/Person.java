@@ -4,10 +4,12 @@ import java.time.Year;
 import java.util.Scanner;
 
 public class Person {
-    public static final Scanner SCANNER = new Scanner(System.in);
+    public static final Scanner SCANNER = new Scanner(System.in);//Not final
     private String firstName;
     private String lastName;
     private int birthYear;
+
+    //Add constructor without and with parameters
 
     public String getFirstName() {
         return firstName;
@@ -64,7 +66,7 @@ public class Person {
         SCANNER.nextLine();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Move main method to some class like App.java
         Person person1 = new Person();
         Person.input(person1);
         person1.changeName();

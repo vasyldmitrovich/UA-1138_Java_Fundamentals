@@ -7,7 +7,7 @@ public class AreaTriangle {
     public static final Scanner s = new Scanner(System.in);
 
     public static void main(String[] args) {
-        System.out.println("The area of the triangle is: " + scan(s));
+        System.out.println("The area of the triangle is: " + scan(s));//Nice very nice
     }
 
     public static double scan(Scanner s) {

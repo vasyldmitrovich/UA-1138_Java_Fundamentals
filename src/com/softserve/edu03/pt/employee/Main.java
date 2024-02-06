@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 import static com.softserve.edu03.pt.employee.Employee.printEmployeeStats;
 
-public class Main {
+public class Main {//All is good
 
     public static final Scanner SCANNER = new Scanner(System.in);
 
     public static void main(String[] args) {
-        printEmployeeStats();
+        printEmployeeStats();//Good
         Employee employee1 = new Employee();
         Employee.promptParameters(employee1);
 
