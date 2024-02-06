@@ -11,7 +11,7 @@ public class PT3 {
     System.out.println("Country  " + country + " belongs to " + continent);
     }
 }
-enum Continent {
+enum Continent {//Do the same with this enum
     EUROPE, ASIA, AFRICA;
 
     @Override

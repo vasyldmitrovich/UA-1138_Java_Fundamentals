@@ -15,7 +15,7 @@ public class PT2 {
     }
 }
 
-enum DayofWeek {
+enum DayofWeek {//Move to file DayOfWeek.java not here
     MONDAY("Monday", "Понеділок"), TUESDAY("Tuesday", "Вівторок"), WEDNESDAY("Wednesday", "Середа"), THURSDAY("Thursday", "Четвер"), FRIDAY("Friday", "Пятниця");
     public final String engName;
     public final String ukrName;
