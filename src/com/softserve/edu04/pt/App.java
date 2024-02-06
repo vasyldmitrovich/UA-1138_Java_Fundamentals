@@ -21,6 +21,8 @@ public class App {
         Product product3 = new Product("orange", 5, 3);
         Product product4 = new Product("kiwi", 8, 1);
 
+
+        //Move this logic to some method and call this method here
         Product theMostExpensive = product1;
         if (product2.getPrice() > theMostExpensive.getPrice()) {
             theMostExpensive = product2;
@@ -87,7 +89,7 @@ public class App {
         }
     }
 
-    public enum DayOfTheWeek {
+    public enum DayOfTheWeek {//Why you write enum in this class. Move to file DayOfTheWeek.java
         DAY_1("Понеділок", "Monday"),
         DAY_2("Вівторок", "Tuesday"),
         DAY_3("Середа", "Wednesday"),
@@ -125,7 +127,7 @@ public class App {
 
     }
 
-    public enum Continent {
+    public enum Continent {//The same with this enum
         EUROPE, ASIA, AFRICA;
     }
 }
