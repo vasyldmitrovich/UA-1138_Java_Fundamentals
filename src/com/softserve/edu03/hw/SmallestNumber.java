@@ -19,7 +19,7 @@ public class SmallestNumber {
         System.out.println("The smallest number is: " + min);
     }
 
-    private static int findMin(int first, int second, int third) {
+    private static int findMin(int first, int second, int third) {//Good
         int min = first;
         if (second < min) {
             min = second;

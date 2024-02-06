@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class HW04_02 {
     static public final Scanner SCANNER = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Very nice code is clear and readable, nice
         System.out.println("Input the first number: ");
         int first = SCANNER.nextInt();
 
@@ -22,7 +22,7 @@ public class HW04_02 {
         System.out.println("The maximum value is: " + max);
     }
 
-    private static int findMax(int first, int second, int third) {
+    private static int findMax(int first, int second, int third) {//Good
         int max = first;
         if (second > max) {
             max = second;
@@ -34,7 +34,7 @@ public class HW04_02 {
         return max;
     }
 
-    private static int findMin(int first, int second, int third) {
+    private static int findMin(int first, int second, int third) {//Nice
         int min = first;
         if (second < min) {
             min = second;

@@ -14,7 +14,7 @@ public class PrTask01 {
                 " and " + second + " is " + average);
     }
 
-    private static int getNumber(String prompt) {
+    private static int getNumber(String prompt) {//This is good
         System.out.print(prompt);
         Scanner scan = new Scanner(System.in);
         return Integer.parseInt(scan.nextLine());
