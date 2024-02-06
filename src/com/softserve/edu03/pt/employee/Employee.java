@@ -3,7 +3,7 @@ package com.softserve.edu03.pt.employee;
 import static com.softserve.edu03.pt.employee.Main.SCANNER;
 
 public class Employee {
-    public static final double BONUSES = 0.1;
+    public static final double BONUSES = 0.1;//Why public???
     private static double totalSum;
 
     private String name;
@@ -70,7 +70,7 @@ public class Employee {
         System.out.println("Total sum: %.2f".formatted(Employee.getTotalSum()));
     }
 
-    public static void promptParameters(Employee employee) {
+    public static void promptParameters(Employee employee) {//Good
         System.out.print("Input name:");
         String name = SCANNER.nextLine();
         employee.setName(name);
