@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Minimal number is " + minNumber);
     }
 
-    private static double getValueSide(String messageToUser) {
+    private static double getValueSide(String messageToUser) {//Good
         System.out.println(messageToUser);
         Scanner scan = new Scanner(in);
         return Double.parseDouble(scan.nextLine());
