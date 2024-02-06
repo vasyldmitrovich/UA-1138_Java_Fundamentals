@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import static java.lang.System.in;
 
-public class PrTask01 {
+public class PrTask01 {//Ok
     public static void main(String[] args) {
         int number1 = input("Input number 1: ");
         int number2 = input("Input number 2: ");

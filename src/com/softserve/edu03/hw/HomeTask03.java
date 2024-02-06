@@ -3,7 +3,7 @@ package com.softserve.edu03.hw;
 import java.util.Scanner;
 
 public class HomeTask03 {
-    public static void main(String[] args){
+    public static void main(String[] args){//Nice very nice
         Person[] person = new Person[5]; // Array for our data
         for (int i = 0; i < 5; i++){
             System.out.println("\nEnter information about person " + (i + 1) + ":"); // i+1 because starting from 0
@@ -29,7 +29,7 @@ public class HomeTask03 {
     }
 }
 
-class Person{
+class Person{// Move to file Person.java
     private String firstName;
     private String lastName;
     private int birthYear;
@@ -62,6 +62,7 @@ class Person{
     public int getAge() {
         return 2024 - birthYear;
     } // This is not entirely correct, since we have 365 days in a year, but in the task we only need to enter the year
+    //Thanks for your attentiveness
 
     public void changeName(String firstName, String lastName){
         setFirstName(firstName);

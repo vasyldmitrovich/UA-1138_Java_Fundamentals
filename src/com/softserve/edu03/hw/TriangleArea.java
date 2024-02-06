@@ -8,11 +8,12 @@ public class TriangleArea {
         int side1 = getInput("Input side 1: ");
         int side2 = getInput("Input side 2: ");
         int side3 = getInput("Input side 3: ");
+
         double area = triangleArea(side1, side2, side3);
-        System.out.println("The area of triangle is " + area);
+        System.out.println("The area of triangle is " + area);//You can call this method here
     }
 
-    private static double triangleArea(int side1, int side2, int side3) {
+    private static double triangleArea(int side1, int side2, int side3) {//Good
         double p = (side1 + side2 + side3) / 2.0;
         return sqrt(p * (p - side1) * (p - side2) * (p - side3));
     }

@@ -12,7 +12,7 @@ public class PrTask03 {
     }
 }
 
-enum Continent{
+enum Continent{//Do the same with this enum move to file Continent.java
     ASIA, AFRICA, EUROPE, AMERICA, AUSTRALIA;
 
     public String toString(){

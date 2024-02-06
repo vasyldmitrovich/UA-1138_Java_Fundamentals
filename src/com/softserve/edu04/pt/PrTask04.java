@@ -1,7 +1,7 @@
 package com.softserve.edu04.pt;
 
 public class PrTask04 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Too much code in main method, divide to separate methods
         Product product1 = new Product("Table", 100, 2);
         Product product2 = new Product("Lamp", 10, 1);
         Product product3 = new Product("Chair", 50, 4);

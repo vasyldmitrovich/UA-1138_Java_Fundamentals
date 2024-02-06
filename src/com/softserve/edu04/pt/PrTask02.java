@@ -14,7 +14,7 @@ public class PrTask02 {
     }
 }
 
-enum DayOfWeek {
+enum DayOfWeek {//Move to file DayOfWeek.java
     MONDAY("Monday", "Понеділок"),
     TUESDAY("Tuesday", "Вівторок"),
     WEDNESDAY("Wednesday", "Середа"),
@@ -31,7 +31,7 @@ enum DayOfWeek {
         this.ukrainianName = ukrainianName;
     }
 
-    public static DayOfWeek getByNumber(int number){
+    public static DayOfWeek getByNumber(int number){//This method move from this class
         return switch (number){
             case 1 -> MONDAY;
             case 2 -> TUESDAY;
