@@ -9,7 +9,7 @@ public class HW1 {
         int a = getNumber("Enter side 1: ");
         int b = getNumber("Enter side 2: ");
         int c = getNumber("Enter side 3: ");
-        double sum = getSum(a, b, c);
+        double sum = getSum(a, b, c);//You do not use variable sum, please print result to console
         double S = getS(a, b, c);
         double area = Math.sqrt(S * (S - a) * (S - b) * (S - c));
         System.out.println("The area of triangle is " + area);

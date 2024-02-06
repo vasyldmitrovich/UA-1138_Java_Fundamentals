@@ -15,11 +15,11 @@ public class HW2 {
     }
 
 
-    private static double getSmallest(int first, int second, int third) {
+    private static double getSmallest(int first, int second, int third) {//Nice
         return Math.min(Math.min(first, second), third);
     }
 
-    private static int getNumber(String prompt) {
+    private static int getNumber(String prompt) {//Good
         System.out.println(prompt);
         Scanner scanner = new Scanner(in);
         return Integer.parseInt(scanner.nextLine());

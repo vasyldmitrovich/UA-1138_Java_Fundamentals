@@ -9,9 +9,9 @@ public class PT1 {
         int first = getNumber("Enter the first number: ");
         int second = getNumber("Enter the second number: ");
         int sum = getTotal(first, second);
-        double avarage = getAvarage(first, second);
+        double average = getAvarage(first, second);
         System.out.println("The sum of " + first + " and " + second + " is " + sum);
-        System.out.println("The avarage of " + first + " and " + second + " is " + avarage);
+        System.out.println("The avarage of " + first + " and " + second + " is " + average);
     }
 
     private static int getNumber(String prompt) {

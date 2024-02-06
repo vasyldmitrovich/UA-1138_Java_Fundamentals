@@ -19,7 +19,7 @@ public class PT2 {
         System.out.println(Employee.getTotalSum());
     }
 
-    static class Employee {
+    static class Employee {//Do not do this class inner and static move to file Employee.java
         private static final double BONUS_RATE = 0.1; //10% from salary
         private static double totalSum;
         private String name;
