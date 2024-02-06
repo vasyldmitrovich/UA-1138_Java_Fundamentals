@@ -5,7 +5,7 @@ import java.util.Scanner;
 import static java.lang.System.in;
 
 public class hw3 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//TODO Add spaces for good readable of code
         Scanner scanner = new Scanner(in);
         System.out.println("Enter the number of error(400, 401, 402):");
         int num = scanner.nextInt();
@@ -22,7 +22,7 @@ public class hw3 {
     }
 }
 
-enum HTTPError {
+enum HTTPError {//Move to file HTTPError.java
     ERROR_400(400, "Bad Request"),
     ERROR_401(401, "Unauthorized"),
     ERROR_402(402, "Payment Required");

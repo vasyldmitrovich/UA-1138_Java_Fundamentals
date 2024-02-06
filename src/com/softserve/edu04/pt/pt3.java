@@ -24,7 +24,7 @@ enum Continent{
         return name.charAt(0) + name.substring(1).toLowerCase(Locale.ROOT);
     }
 
-    public static Continent getForCountry(String country){
+    public static Continent getForCountry(String country){//This method should be in class like App.java where is main method, not here
         return switch (country.toUpperCase()){
             case "UKRAINE", "GERMANY", "FRANCE" -> EUROPE;
             case "USA", "CANADA" -> AMERICA;

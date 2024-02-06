@@ -7,6 +7,8 @@ import static java.lang.System.in;
 import static java.lang.System.setErr;
 
 public class hw4 {
+
+    //TODO move classes in separate files
     public static void main(String[] args) {
         Scanner scanner = new Scanner(in);
         System.out.println("Enter the quantity of students at the faculty:");
