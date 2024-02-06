@@ -3,7 +3,7 @@ package com.softserve.edu04.hw;
 import java.util.Scanner;
 
 public class Task3 {
-    enum HTTPError {
+    enum HTTPError {//Move to file HTTPError.java
         ERROR_400("Bad Request"),
         ERROR_401("Unauthorized"),
         ERROR_402("Payment Required"),

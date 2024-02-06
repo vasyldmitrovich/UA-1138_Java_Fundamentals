@@ -24,5 +24,5 @@ public class Task1 {
 
     public static double getAverage(int int1, int int2) {
         return (int1 + int2) / 2.0;
-    }
+    }//Ok
 }

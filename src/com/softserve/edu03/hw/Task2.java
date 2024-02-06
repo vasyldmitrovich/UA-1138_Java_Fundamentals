@@ -11,7 +11,7 @@ public class Task2 {
         System.out.println("The smallest number is " + result);
     }
 
-    public static int smallestNumber(int num1, int num2, int num3) {
+    public static int smallestNumber(int num1, int num2, int num3) {//Good
         int smallest = num1;
         if (num2 < smallest) {
             smallest = num2;
@@ -22,7 +22,7 @@ public class Task2 {
         return smallest;
     }
 
-    public static int getInput(String message) {
+    public static int getInput(String message) {//Good
         Scanner scanner = new Scanner(System.in);
         System.out.print(message);
         return scanner.nextInt();

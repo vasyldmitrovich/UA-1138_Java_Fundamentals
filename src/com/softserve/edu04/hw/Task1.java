@@ -11,7 +11,7 @@ public class Task1 {
         float num2 = scanner.nextFloat();
         float num3 = scanner.nextFloat();
 
-        boolean withinRange = (num1 >= -5 && num1 <= 5) && (num2 >= -5 && num2 <= 5) && (num3 >= -5 && num3 <= 5);
+        boolean withinRange = (num1 >= -5 && num1 <= 5) && (num2 >= -5 && num2 <= 5) && (num3 >= -5 && num3 <= 5);//Nice
 
         if (withinRange) {
             System.out.println("Усі числа належать до діапазону [-5, 5]");

@@ -18,6 +18,6 @@ public class Task1 {
     public static double calculateTriangleArea(double b, double h, double s) {
         double p = (b + s + h) / 2.0;
         double area = Math.sqrt(p * (p - b) * (p - h) * (p - s));
-        return area;
+        return area;//Write something like that return Math.sqrt(p * (p - b) * (p - h) * (p - s)); without creating variable area
     }
 }

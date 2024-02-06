@@ -17,8 +17,8 @@ public class Task2 {
     }
 }
 
-class Employee {
-    public static final double BONUS_RATE = 0.1;
+class Employee {//Move to file Employee.java
+    public static final double BONUS_RATE = 0.1;//Why public and final???
     private String name;
     private double rate;
     private int hours;

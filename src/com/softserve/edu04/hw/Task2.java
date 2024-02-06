@@ -3,7 +3,7 @@ package com.softserve.edu04.hw;
 import java.util.Scanner;
 
 public class Task2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Ok
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Введіть три цілі числа");
