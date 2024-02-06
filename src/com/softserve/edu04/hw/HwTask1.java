@@ -3,7 +3,7 @@ package com.softserve.edu04.hw;
 import java.util.Scanner;
 
 public class HwTask1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Ok
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введіть перше число (через кому): ");
         float firstNumber = scanner.nextFloat();

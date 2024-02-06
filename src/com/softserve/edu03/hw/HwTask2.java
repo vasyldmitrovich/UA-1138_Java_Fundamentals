@@ -18,7 +18,7 @@ public class HwTask2 {
         return Integer.parseInt(scanner.nextLine());
     }
 
-    private static int getSmallest(int first, int second, int third) {
+    private static int getSmallest(int first, int second, int third) {//Ok
         return Math.min(Math.min(first, second), third);
     }
 }

@@ -11,7 +11,7 @@ public class HwTask3 {
     }
 }
 
-class Person {
+class Person {//Move this class to file Person.java
     private String firstName;
     private String lastName;
     private int birthYear;
@@ -28,7 +28,7 @@ class Person {
         return LocalDate.now().getYear() - birthYear;
     }
 
-    public static void input(Person person) {
+    public static void input(Person person) {//Move this and next method after getters and setters
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введіть імя: ");
         String firstName = scanner.nextLine();

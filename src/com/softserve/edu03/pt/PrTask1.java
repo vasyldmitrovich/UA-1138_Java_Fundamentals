@@ -3,7 +3,7 @@ package com.softserve.edu03.pt;
 import java.util.Scanner;
 
 public class PrTask1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//All is good
         int first = getNumbers("Enter the first number: ");
         int second = getNumbers("Enter the second number: ");
 

@@ -2,7 +2,7 @@ package com.softserve.edu04.hw;
 
 import java.util.Scanner;
 
-public class HwTask2 {
+public class HwTask2 {//Ok
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введіть перше число: ");

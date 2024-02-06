@@ -12,7 +12,7 @@ public class HwTask1 {
         System.out.println("The area of triangle is: " + area);
     }
 
-    private static int getSides(String prompt) {
+    private static int getSides(String prompt) {//Good
         System.out.println(prompt);
         Scanner scanner = new Scanner(System.in);
         return Integer.parseInt(scanner.nextLine());
