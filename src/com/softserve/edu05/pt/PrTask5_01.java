@@ -6,12 +6,14 @@ import java.util.Scanner;
 public class PrTask5_01 {
     private static final Scanner SCANNER = new Scanner(System.in);
 
-    public static void main(String... args) {
+    public static void main(String... args) {//Add spaces for good readable of code
         String[] names = {"Bob", "Alice", "Jack"};
         System.out.println(Arrays.toString(names));
         Arrays.sort(names);
         System.out.println(Arrays.toString(names));
 
+
+        //Divide to some methods and call this methods here in main method
         double[] numbers = {1, 2, 2.5, 3, 5};
         double sum = 0.0;
         for (double number : numbers) {

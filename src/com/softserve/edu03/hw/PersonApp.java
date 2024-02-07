@@ -1,6 +1,6 @@
 package com.softserve.edu03.hw;
 
-public class PersonApp {
+public class PersonApp {//All is good
     public static void main(String[] args) {
         Person person1 = new Person("James", "Bond");
         person1.setBirthYear(1977);

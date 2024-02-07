@@ -20,9 +20,9 @@ public class PrTask02 {
     }
 }
 
-class Employee {
+class Employee {//Move to file Employee.java
     private static final double BONUS_RATE = 0.1;
-    private static double totalSum = 0.0;
+    private static double totalSum = 0.0;//this variable will have this data by default
     private String name;
     private double rate;
     private int hours;

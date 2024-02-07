@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class PrTask4_02 {
     private static final Scanner SCANNER = new Scanner(System.in);
 
-    public static void main(String... args) {
+    public static void main(String... args) {//Add spaces for good readable of code
         System.out.println("Enter the number of a day of a week: ");
         int dayNumber = SCANNER.nextInt();
         DayOfWeek dayOfWeek = DayOfWeek.getByNumber(dayNumber);
@@ -14,7 +14,7 @@ public class PrTask4_02 {
     }
 }
 
-enum DayOfWeek {
+enum DayOfWeek {//Move to file DayOfWeek.java
     MONDAY("Monday", "Понеділок"),
     TUESDAY("Tuesday", "Вівторок"),
     WEDNESDAY("Wednesday", "Середа"),
