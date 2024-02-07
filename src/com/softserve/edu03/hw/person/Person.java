@@ -1,4 +1,4 @@
-package com.softserve.edu03.hw;
+package com.softserve.edu03.hw.person;
 
 import java.time.Year;
 import java.util.Scanner;
