@@ -32,7 +32,7 @@ public class PrTask5_01 {
         if (found) {
             System.out.println("The name '" + nameToSearch + "' is on the list");
         } else {
-            System.out.println("' is not found");
+            System.out.println("The name '" + nameToSearch + "' is not found");
         }
 
         System.out.println("Enter the name to search: ");
@@ -42,7 +42,7 @@ public class PrTask5_01 {
         if (ix >= 0) {
             System.out.println("The name '" + nameToSearch + "' is on the list");
         } else {
-            System.out.println("' is not found");
+            System.out.println("The name '" + nameToSearch + "' is not found");
         }
     }
 }
