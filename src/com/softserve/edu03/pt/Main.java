@@ -26,7 +26,7 @@ public class Main {
         return (first + second) / 2;
     }
 
-    public static double getNumber(String prompt, Scanner scanner) {
+    public static double getNumber(String prompt, Scanner scanner) {//Ok
         System.out.print(prompt);
         return Double.parseDouble(scanner.next());
     }

@@ -7,10 +7,10 @@ public class SmallestNumber {
         int num3 = 54;
 
         int smallNumber = findSmallNumber(num1, num2, num3);
-        System.out.println("The smallest number is: " + smallNumber);
+        System.out.println("The smallest number is: " + smallNumber);//You can call method here
     }
 
-    public static int findSmallNumber(int num1, int num2, int num3) {
+    public static int findSmallNumber(int num1, int num2, int num3) {//Good
         int smallest = num1;
 
         if (num2 < smallest) {
