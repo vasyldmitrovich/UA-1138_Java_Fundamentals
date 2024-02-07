@@ -3,7 +3,7 @@ package com.softserve.edu03.pt.employee;
 import static com.softserve.edu03.pt.employee.Main.SCANNER;
 
 public class Employee {
-    public static final double BONUSES = 0.1;//Why public???
+    private static final double BONUSES = 0.1;//Why public???
     private static double totalSum;
 
     private String name;
