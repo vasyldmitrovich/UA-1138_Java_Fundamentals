@@ -18,7 +18,7 @@ public class HomeTask02 {
         return scanner.nextInt();
     }
 
-    private static int smallestNumber(int first, int second, int third) {
+    private static int smallestNumber(int first, int second, int third) {//Good
         if((first < second) && (first < third)){
             return first;
         }
@@ -30,7 +30,7 @@ public class HomeTask02 {
         }
     }
 
-    private static int biggestNumber(int first, int second, int third) {
+    private static int biggestNumber(int first, int second, int third) {//Ok
         if((first > second) && (first > third)){
             return first;
         }

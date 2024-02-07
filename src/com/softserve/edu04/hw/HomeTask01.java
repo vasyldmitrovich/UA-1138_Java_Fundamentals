@@ -3,7 +3,7 @@ package com.softserve.edu04.hw;
 import java.util.Scanner;
 
 public class HomeTask01 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Add spaces for good readable of code
         float first = input("Input first number: ");
         float second = input("Input second number: ");
         float third = input("Input third number: ");

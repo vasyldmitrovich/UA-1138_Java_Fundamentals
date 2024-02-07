@@ -2,7 +2,7 @@ package com.softserve.edu04.hw;
 
 import java.util.Scanner;
 
-public class HomeTask04 {
+public class HomeTask04 {//Ok
     public static void main(String[] args) {
         Faculty faculty = new Faculty();
         faculty.input();
@@ -53,7 +53,7 @@ class Faculty {
     }
 }
 
-enum Season {
+enum Season {//Move to file Season.java
     WINTER("Winter"),
     SPRING("Spring"),
     SUMMER("Summer"),

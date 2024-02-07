@@ -6,7 +6,8 @@ import static java.lang.System.in;
 
 public class HomeTask03 {
     public static void main(String[] args) {
-        int errorNumber = input("Input error number: ");
+        int errorNumber = input("Input error number: ");//Good
+        //Add spaces for good readable of code
         HTTPError description = null;
         switch (errorNumber) {
             case 400 -> description = HTTPError.BAD_REQUEST;
@@ -56,7 +57,7 @@ public class HomeTask03 {
 
 }
 
-enum HTTPError {
+enum HTTPError {//Move to file HTTPError.java not here
     BAD_REQUEST, UNAUTHORIZED, PAYMENT_REQUIRED, FORBIDDEN, NOT_FOUND, METHOD_NOT_ALLOWED, NOT_ACCEPTABLE, PROXY_AUTHENTICATION_REQUIRED, REQUEST_TIMEOUT, CONFLICT, GONE, LENGTH_REQUIRED, PRECONDITION_FAILED, PAYLOAD_TOO_LARGE, URI_TOO_LONG, UNSUPPORTED_MEDIA_TYPE, RANGE_NOT_SATISFIABLE, EXPECTATION_FAILED, IM_A_TEAPOT, MISDIRECTED_REQUEST, UNPROCESSABLE_ENTITY, LOCKED, FAILED_DEPENDENCY, TOO_EARLY, UPGRADE_REQUIRED, PRECONDITION_REQUIRED, TOO_MANY_REQUESTS, REQUEST_HEADER_FIELDS_TOO_LARGE, UNAVAILABLE_FOR_LEGAL_REASONS
 
 

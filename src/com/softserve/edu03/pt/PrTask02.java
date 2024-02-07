@@ -20,7 +20,7 @@ public class PrTask02 {
     }
 }
 
-class Employee {
+class Employee {//Move to file Employee.java
     public static final double BONUS_RATE = 0.1; // 10% from salary
     private static double totalSum;
     private String name;
@@ -31,9 +31,12 @@ class Employee {
 
     }
 
+    //Getters and setters should go after constructors
+
     public double getSalary(){
         return getRate() * getHours();
     }
+
     public double getBonuses(){
         return BONUS_RATE * getSalary();
     }
