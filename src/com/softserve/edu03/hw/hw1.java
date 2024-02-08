@@ -10,13 +10,13 @@ public class hw1 {
         System.out.println("The area of triangle: %.2f".formatted(getAreaOfTriangle(first,second, third)));
     }
 
-    public static double getAreaOfTriangle(int a, int b, int c){
+    public static double getAreaOfTriangle(int a, int b, int c){//Nice
         double p = (a+b+c)/2.0;
         double area = Math.sqrt(p*(p-a)*(p-b)*(p-c));
         return area;
     }
 
-    public static int getNumber(String prompt){
+    public static int getNumber(String prompt){//Good
         Scanner scanner = new Scanner(System.in);
         System.out.println(prompt);
         int num = scanner.nextInt();

@@ -53,7 +53,7 @@ class Dog {
     private Breed breed;
     private int age;
 
-    public enum Breed {
+    public enum Breed {// Move to Bread.java
         LABRADOR,
         BEAGLE,
         GERMAN_SHEPHERD,

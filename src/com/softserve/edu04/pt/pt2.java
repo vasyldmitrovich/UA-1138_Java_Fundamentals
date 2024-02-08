@@ -3,7 +3,7 @@ package com.softserve.edu04.pt;
 import java.util.Scanner;
 
 public class pt2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Add spaces
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number of the day of the week:");
         int dayOfTheWeek = scanner.nextInt();
@@ -12,7 +12,7 @@ public class pt2 {
         System.out.println("Цей номер відповідає такому дню: " + dayOfWeek.ukrainianName);
     }
 }
-enum DayOfWeek {
+enum DayOfWeek {//Move to file DayOfWeek.java
     MONDAY("Monday","Понеділок"),
     TUESDAY("Tuesday","Вівторок"),
     WEDNESDAY("Wednesday","Середа"),
@@ -29,7 +29,7 @@ enum DayOfWeek {
         this.ukrainianName = ukrainianName;
     }
 
-    public static DayOfWeek getByNumber(int number){
+    public static DayOfWeek getByNumber(int number){//Move to file for example App.java where is main method
         return switch (number){
             case 1 -> MONDAY;
             case 2 -> TUESDAY;

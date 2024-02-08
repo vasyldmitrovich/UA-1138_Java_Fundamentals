@@ -1,6 +1,11 @@
 package com.softserve.edu03.pt;
 
-public class pt2 {
+public class pt2 {//Why all your classes start from lowercase???
+
+
+    //TODO IT IS NOT GOOD give name of classes from lowercase, Read java code convention
+
+
     public static void main(String[] args) {
         Employee employee1 = new Employee();
         employee1.setName("Mark");
@@ -20,7 +25,7 @@ public class pt2 {
     }
 }
 
-class Employee {
+class Employee {//Move to file Employee.java
     private static final double BONUS_RATE = 0.1;
     private String name;
     private double rate;

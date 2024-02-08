@@ -3,7 +3,7 @@ package com.softserve.edu03.hw;
 import java.util.Scanner;
 
 public class hw3 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Ok
         Person person1 = new Person();
         person1.input();
         System.out.println("Person1: " + person1);
@@ -27,7 +27,7 @@ public class hw3 {
     }
 }
 
-class Person {
+class Person {//Move to file Person.java
     private String firstName;
     private String lastName;
     private int birthYear;

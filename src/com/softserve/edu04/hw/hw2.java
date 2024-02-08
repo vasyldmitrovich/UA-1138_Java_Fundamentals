@@ -16,6 +16,7 @@ public class hw2 {
         System.out.println("Input the third number:");
         int num3 =  scanner.nextInt();
 
+        //Move next code to some method and call this method here
         int max = num1;
         int min = num2;
         if (num2 > max) {
