@@ -19,7 +19,7 @@ public class Main {
         return Double.parseDouble(scan.nextLine());
     }
 
-    private static double calculateArea(double firstSide, double secondSide, double thirdSide) {
+    private static double calculateArea(double firstSide, double secondSide, double thirdSide) {//Nice
         double halfPerimeter = (firstSide + secondSide + thirdSide) / 2.0;
         double square = Math.sqrt(halfPerimeter * ((halfPerimeter - firstSide) * (halfPerimeter - secondSide) * (halfPerimeter - thirdSide)));
         return square;
