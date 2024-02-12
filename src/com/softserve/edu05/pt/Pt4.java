@@ -45,11 +45,12 @@ public class Pt4 {
         }
     }
 }
-class Employee {
-    String name;
+class Employee {//Move to file Employee.java
+    String name;//Make fields private
     int departmentNumber;
     double salary;
 
+    //Add constructor without parameters
     public Employee(String name, int departmentNumber, double salary) {
         this.name = name;
         this.departmentNumber = departmentNumber;

@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class Pt3 {
     public static void main(String[] args) {
-        int[] arr = generateRandomNumbers(10);
+        int[] arr = generateRandomNumbers(10);//Using this method is good decision
         System.out.println(Arrays.toString(arr));
         System.out.println("The max value is " + max(arr));
         System.out.println("The sum of positive value is " + sumOfPositives(arr));

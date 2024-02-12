@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import static java.lang.System.in;
 
-public class Hw4 {
+public class Hw4 {//Ok
     public static void main(String[] args) {
         int randomNumber = generateRandomNumbers();
         System.out.println("Try to guess the number!");

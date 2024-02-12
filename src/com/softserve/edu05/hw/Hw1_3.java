@@ -24,7 +24,7 @@ public class Hw1_3 {
 
     public static int positionOfSecondPositiveNumber(int[] arr){
         int count = 0;
-        int count1 = 0;
+        int count1 = 0;//Rename variable to more informative name
         for (int i = 0; i < arr.length; i++){
             if (arr[i] > 0){
                 count++;

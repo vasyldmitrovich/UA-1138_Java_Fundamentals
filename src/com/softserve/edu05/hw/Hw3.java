@@ -49,11 +49,12 @@ public class Hw3 {
     }
 }
 
-class Car {
-    String type;
+class Car {//Move to file Car.java
+    String type;//Make fields private
     int yearOfProduction;
     double engineCapacity;
 
+    //Add constructor without parameters
     public Car(String type, int yearOfProduction, double engineCapacity) {
         this.type = type;
         this.yearOfProduction = yearOfProduction;

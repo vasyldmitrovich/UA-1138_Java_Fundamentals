@@ -11,7 +11,7 @@ public class Hw1_2 {
 
         System.out.println("Enter 10 numbers:");
 
-        for (int i = 0; i < numbers.length; i++) {
+        for (int i = 0; i < numbers.length; i++) {//Good
             numbers[i] = scanner.nextInt();
         }
 
