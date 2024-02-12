@@ -19,6 +19,8 @@ abstract class Bird {
         return layEggs;
     }
 
+    //Add getters
+
     @Override
     public String toString() {
         return "Bird{" +

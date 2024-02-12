@@ -29,6 +29,7 @@ class ClassA {
     }
 
     //модифікатор protected треба змінити на public? аби перевизначити метод
+    //Here should be protected, in ClassB you can change modifier to public not here
     public void m8() {
         System.out.println("ClassA, metod m8");
     }

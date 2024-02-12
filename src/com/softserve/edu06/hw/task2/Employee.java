@@ -11,6 +11,7 @@ class Employee {
         this.salary = salary;
     }
 
+    //Do not correct order of methods see java code convention
     public String report() {
         return (String.format("Name: %s, Age: %d, " +
                 "Salary: \u20B4 %.2f.", name, age, salary));

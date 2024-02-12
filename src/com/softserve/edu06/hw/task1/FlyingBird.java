@@ -6,6 +6,7 @@ class FlyingBird extends Bird {
         super(feathers, layEggs);
     }
 
+    //If you do not change logic in method, do not override this method here
     @Override
     void fly() {
 

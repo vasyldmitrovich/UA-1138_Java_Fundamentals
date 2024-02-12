@@ -3,7 +3,7 @@ package com.softserve.edu05.pt;
 import java.util.Arrays;
 import java.util.Random;
 
-public class PrTask3 {
+public class PrTask3 {//All good
     public static void main(String[] args) {
         Random random = new Random();
         int[] arr = new int[10];

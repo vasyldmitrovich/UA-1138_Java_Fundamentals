@@ -3,7 +3,7 @@ package com.softserve.edu06.hw.task1;
 import java.util.Arrays;
 
 public class HwTask1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Ok
         Bird[] birds = {
                 new Penguin(true, true),
                 new Eagle(true, true),

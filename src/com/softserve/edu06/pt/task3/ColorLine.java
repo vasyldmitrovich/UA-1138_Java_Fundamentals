@@ -8,6 +8,8 @@ class ColorLine extends Line {
         this.color = color;
     }
 
+    //Here should be getter for field color
+
     @Override
     public String toString() {
         String base = super.toString();

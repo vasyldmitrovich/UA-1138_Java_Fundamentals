@@ -1,11 +1,11 @@
 package com.softserve.edu05.hw.task3;
 
-public class Car {
-    private final String type;
+public class Car {//Good
+    private final String type;//but why final???
     private int yearProduction;
-    private final int capacity;
+    private final int capacity;//why final
 
-    public static void sortCars(Car[] cars) {
+    public static void sortCars(Car[] cars) {//Move this method to file HwTask3.java
         for (int i = 0; i < cars.length - 1; i++) {
             for (int j = 0; j < cars.length - i - 1; j++) {
                 if (cars[j].yearProduction < cars[j + 1].yearProduction) {
@@ -19,7 +19,7 @@ public class Car {
 
     public void setYearProduction(int yearProduction) {
         this.yearProduction = yearProduction;
-    }
+    }//After constructors
 
     public Car(String type, int yearProduction, int capacity) {
         this.type = type;
