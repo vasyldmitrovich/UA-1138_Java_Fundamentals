@@ -19,11 +19,13 @@ public class Hw05 {
     }
 }
 
-class Dog {
-    public static final Scanner SCANNER = new Scanner(System.in);
+class Dog {//Move to file Dog.java
+    public static final Scanner SCANNER = new Scanner(System.in);//Move to main mathod
     private String name;
     private String breed;
     private int age;
+
+    //Where is constructors???
 
     public String getName() {
         return name;
@@ -49,7 +51,7 @@ class Dog {
         this.age = age;
     }
 
-    public static void input(Dog dog) {
+    public static void input(Dog dog) {//Move out from this class
         System.out.println("Input dog name: ");
         String name = SCANNER.nextLine();
         dog.setName(name);
@@ -62,7 +64,7 @@ class Dog {
         SCANNER.nextLine();
     }
 
-    public static void oldestDog(Dog dog1, Dog dog2, Dog dog3) {
+    public static void oldestDog(Dog dog1, Dog dog2, Dog dog3) {//Move out from this class
         Dog oldest = dog1;
         if (oldest.getAge() < dog2.getAge()) {
             oldest = dog2;
@@ -73,7 +75,7 @@ class Dog {
         System.out.println("Oldest dog is: " + oldest.getName() + " " + oldest.getBreed());
     }
 
-    public static void sameNameDog(Dog dog1, Dog dog2, Dog dog3) {
+    public static void sameNameDog(Dog dog1, Dog dog2, Dog dog3) {//Move out from this class
         if (dog1.getName().equals(dog2.getName())) {
             System.out.println("First dog and Second dog have same name: " + dog1.getName());
         } else if (dog1.getName().equals(dog3.getName())) {
@@ -99,7 +101,7 @@ class Dog {
     }
 }
 
-enum Breed {
+enum Breed {//Move to file Breed.java
     LABRADOR_RETRIEVER("Labrador retriever"),
     FRENCH_BULLDOG("French bulldog"),
     GOLDEN_RETRIEVER("Golden retriever"),
@@ -119,7 +121,7 @@ enum Breed {
         return br;
     }
 
-    public static Breed getBreed(String breed) {
+    public static Breed getBreed(String breed) {//Move out from this class
         return switch (breed) {
             case "Labrador retriever" -> LABRADOR_RETRIEVER;
             case "French bulldog" -> FRENCH_BULLDOG;

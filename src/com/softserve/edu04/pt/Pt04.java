@@ -85,7 +85,7 @@ class Product {
     }
 
 
-    public static void input(Product product, String text) {
+    public static void input(Product product, String text) {//Move out from this class
         System.out.println(text);
         String name = Pt04.SCANNER.nextLine();
         product.setName(name);

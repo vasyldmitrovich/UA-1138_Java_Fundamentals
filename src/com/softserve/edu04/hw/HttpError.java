@@ -3,8 +3,8 @@ package com.softserve.edu04.hw;
 import java.util.Scanner;
 
 public class HttpError {
-    public static final Scanner SCANNER = new Scanner(System.in);
-    public static void main(String[] args) {
+    public static final Scanner SCANNER = new Scanner(System.in);//This field move to file for example App.java
+    public static void main(String[] args) {//This method move to file for example App.java
         Error error = Error.getNum(num());
         System.out.println("This error: " + error.getEr());
     }
@@ -16,7 +16,7 @@ public class HttpError {
 
 
 }
-enum Error {
+enum Error {//Move to file Error.java
     BAD_REQUEST_400("400 Bad Request"),
     UNAUTHORIZED_401("401 Unauthorized"),
     PAYMENT_REQUIRED_402("402 Payment Required "),
@@ -58,7 +58,7 @@ enum Error {
         return er;
     }
 
-    public static Error getNum(int numError) {
+    public static Error getNum(int numError) {//This method move to file for example App.java
         return switch (numError) {
             case 400 -> BAD_REQUEST_400;
             case 401 -> UNAUTHORIZED_401;

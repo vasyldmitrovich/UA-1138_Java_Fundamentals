@@ -10,10 +10,12 @@ public class Hw04 {
     }
 }
 
-class Faculty {
+class Faculty {//Move to file Faculty.java
     private static final Scanner SCANNER = new Scanner(System.in);
     private int numOfStudents;
     private String season;
+
+    //Add constructors
 
     public int getNumOfStudents() {
         return numOfStudents;
@@ -49,7 +51,7 @@ class Faculty {
     }
 }
 
-enum Season {
+enum Season {//Move to file Season.java
     WINTER("winter"),
     SPRING("spring"),
     SUMMER("summer"),

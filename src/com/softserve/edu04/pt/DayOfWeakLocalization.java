@@ -15,7 +15,7 @@ public class DayOfWeakLocalization {
 
 }
 
-enum DayOfWeak {
+enum DayOfWeak {//Move to file DayOfWeek.java
     MONDAY("Monday", "Понеділок"),
     TUESDAY("Tuesday", "Вівторок"),
     WEDNESDAY("Wednesday", "Середа"),
@@ -40,7 +40,7 @@ enum DayOfWeak {
         return ua;
     }
 
-    public static DayOfWeak getNum(int numDay) {
+    public static DayOfWeak getNum(int numDay) {//Move out from this class
         return switch (numDay) {
             case 1 -> MONDAY;
             case 2 -> TUESDAY;

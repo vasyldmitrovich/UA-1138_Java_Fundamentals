@@ -12,7 +12,7 @@ public class Pt03 {
     }
 }
 
-enum Continent {
+enum Continent {//Move to file Continent.java
     EUROPE, ASIA, AFRICA, AMERICA;
 
     @Override
@@ -21,7 +21,7 @@ enum Continent {
         return name.charAt(0) + name.substring(1).toLowerCase();
     }
 
-    public static Continent getCountry(String country) {
+    public static Continent getCountry(String country) {//Move out from this class
         return switch (country) {
             case "Germany", "United Kingdom", "France", "Italy", "Spain", "Poland",
                     "Ukraine", "Romania", "Netherlands", "Belgium", "Sweden",

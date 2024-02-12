@@ -2,7 +2,7 @@ package com.softserve.edu04.pt;
 
 import java.util.Scanner;
 
-public class OddNum {
+public class OddNum {//Ok
     public static void main(String[] args) {
         int first = input("Input first number: ");
         int second = input("Input second number: ");
