@@ -26,7 +26,7 @@ public class App {
                 new Employee("Mark", 3, 13000),
 
         };
-        Task4.task4(employees);
+        Task4.task4(employees);//Nice
 
     }
 }

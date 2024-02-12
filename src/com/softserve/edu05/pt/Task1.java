@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import static java.lang.System.in;
 
-public class Task1 {
+public class Task1 {//Very good
     public static void task1() {
 
         // Sort array

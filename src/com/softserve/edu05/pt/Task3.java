@@ -16,7 +16,7 @@ public class Task3 {
         Task3.countOfNegatives(array);
 
         // determine whether there are more negative or positive values in the array.
-        Task3.checkIsMoreNegativeOrPositive(array);
+        Task3.checkIsMoreNegativeOrPositive(array);//Very nice
 
     }
 

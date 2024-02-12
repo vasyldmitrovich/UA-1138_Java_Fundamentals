@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Hw2 {
     public static final Scanner scanner = new Scanner(System.in);
     public static void getSumOfTwoNumbers() {
-        boolean repeate = false;
+        boolean repeate = false;//false is by default
         do {
             System.out.println("Enter two numbers");
             int first = scanner.nextInt();

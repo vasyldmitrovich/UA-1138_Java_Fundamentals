@@ -13,7 +13,7 @@ public class Task2 {
 
     }
 
-    public static boolean isPrime(int number) {
+    public static boolean isPrime(int number) {//Ok
 
         boolean isPrime = number != 1;
 

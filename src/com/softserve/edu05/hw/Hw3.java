@@ -2,7 +2,7 @@ package com.softserve.edu05.hw;
 
 import java.util.Arrays;
 
-public class Hw3 {
+public class Hw3 {//Ok
     public static Car[] getCarByModelYear(int year, Car[] cars) {
         
         int arraySize = 0;

@@ -1,9 +1,11 @@
 package com.softserve.edu05.hw;
 
 public class Car {
-    private final String type;
+    private final String type;//Why fields is final?
     private final int yearOfProduction;
     private final int engineCapacity;
+
+    //Add constructor without parameters
 
     public Car(String type, int yearOfProduction, int engineCapacity) {
         this.type = type;

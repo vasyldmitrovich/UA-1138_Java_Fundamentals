@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import static java.lang.System.in;
 
-public class Task2 {
+public class Task2 {//Oll good
     public static void task2() {
         Scanner scanner = new Scanner(in);
 
