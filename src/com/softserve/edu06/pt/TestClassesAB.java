@@ -21,6 +21,6 @@ public class TestClassesAB {
         b0.m2();
         b0.m3();
         b0.m4();
-        //b0.m5(); // what will be?
+        ((ClassB) b0).m5(); // what will be?
     }
 }
