@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class HwTask4 {
     public final static Scanner SCANNER = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Good
         var generated = new Random().nextInt(-3, 3);
         int s;
         do {

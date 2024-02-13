@@ -3,7 +3,7 @@ package com.softserve.edu05.hw;
 import java.util.Scanner;
 
 public class HwTask1_2 {
-    public final static Scanner SCANNER = new Scanner(System.in);
+    public final static Scanner SCANNER = new Scanner(System.in);//While final and public?
 
     public static void main(String[] args) {
         int[] arr1 = new int[10];
