@@ -1,5 +1,6 @@
 # UA-1138_Java_Fundamentals
 > This is repository of Java Core Complete Course group.
+> Conflicting row
 
 ### List of branches
 
