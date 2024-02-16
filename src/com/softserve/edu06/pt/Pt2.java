@@ -1,7 +1,7 @@
 package com.softserve.edu06.pt;
 
 public class Pt2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Ok
         Line[] lines = {
                 new Line(new Point(2, 2), new Point(4, 6)),
                 new ColorLine(new Point(1, 3), new Point(3, 7), "Red"),
@@ -30,7 +30,7 @@ class Point {
 
     public void print() {
         System.out.println(toString());
-    }
+    }//Not need toString
 }
 
 class Line {
@@ -49,7 +49,7 @@ class Line {
 
     public void print() {
         System.out.println(toString());
-    }
+    }//The same
 }
 
 class ColorLine extends Line {
@@ -67,7 +67,7 @@ class ColorLine extends Line {
 
     public void print() {
         System.out.println(toString());
-    }
+    }//The same
 }
 
 

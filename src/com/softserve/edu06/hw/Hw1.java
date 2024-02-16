@@ -19,8 +19,8 @@ public class Hw1 {
     }
 }
 
-abstract class Bird {
-    protected boolean feathers;
+abstract class Bird {//Divide to separate files, not in one file
+    protected boolean feathers;//Make private
     protected boolean layEggs;
 
     protected String name;
@@ -31,7 +31,7 @@ abstract class Bird {
         this.name = name;
     }
 
-    public abstract void fly();
+    public abstract void fly();//After getters and setters
 
     public boolean getFeathers() {
         return feathers;

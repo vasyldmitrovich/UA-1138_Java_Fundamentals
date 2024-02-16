@@ -1,7 +1,7 @@
 package com.softserve.edu06.pt;
 
 public class Pt1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Ok
         Car[] cars = {
                 new Truck("Ford", 180, 2020),
                 new Sedan("Toyota", 160, 2019),
@@ -20,7 +20,7 @@ public class Pt1 {
 }
 
 abstract class Car {
-    protected String model;
+    protected String model;//Make private
     protected int maxSpeed;
     protected int yearOfProduction;
 
@@ -30,7 +30,7 @@ abstract class Car {
         this.yearOfProduction = yearOfProduction;
     }
 
-    public abstract void run();
+    public abstract void run();//This methods after getters and setters
 
     public abstract void stop();
 
