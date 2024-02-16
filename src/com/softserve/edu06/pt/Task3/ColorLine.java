@@ -10,7 +10,7 @@ public class ColorLine extends Line{
     public ColorLine(Point point1, Point point2, String color) {
         super(point1, point2);
         this.color = color;
-    }
+    }//Good
 
     public void print() {
         System.out.println("This is a " + "coloured line" +

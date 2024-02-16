@@ -1,7 +1,7 @@
 package com.softserve.edu06.hw.Task2;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Ok
         Employee[] employees = {
                 new Developer("Vitalii", 29, 100000, "Senior java developer"),
                 new Developer("Valentin", 25, 110000, "Team lead java developer"),

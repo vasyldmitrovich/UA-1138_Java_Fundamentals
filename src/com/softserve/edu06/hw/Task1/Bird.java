@@ -1,12 +1,12 @@
 package com.softserve.edu06.hw.Task1;
 
 public abstract class Bird {
-    protected boolean feathers;
+    protected boolean feathers;//Make private
     protected boolean layEggs;
 
     protected String name;
 
-    abstract String fly();
+    abstract String fly();//This methods after getters and setters
 
     public void printInformation() {
         System.out.println(

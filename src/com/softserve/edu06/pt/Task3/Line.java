@@ -1,6 +1,6 @@
 package com.softserve.edu06.pt.Task3;
 
-public class Line {
+public class Line {//Good
     private Point point1;
     private Point point2;
 
