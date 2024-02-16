@@ -1,7 +1,7 @@
 package com.softserve.edu07.hw.task1;
 
-class SalariedEmployee extends Employee implements Payment {
-    double fixedSalary;
+class SalariedEmployee extends Employee implements Payment {//implements Payment in class Employee
+    double fixedSalary;//Add modifier access private for fields
     String socialSecurityNumber;
 
     public SalariedEmployee(String employeeId, double fixedSalary, String socialSecurityNumber) {
