@@ -1,6 +1,6 @@
 package com.softserve.edu07.pt;
 
-public class Cleaner extends Staff {
+public class Cleaner extends Staff {//Ok
     private double salary;
 
     public Cleaner(String name, double salary) {

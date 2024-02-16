@@ -1,6 +1,6 @@
 package com.softserve.edu07.hw;
 
-public class ContractEmployee extends Employee implements Payment {
+public class ContractEmployee extends Employee implements Payment {//implements Payment in abstract class Employee
     private int federalTaxIdmember;
     private int hourlyRate;
     private int numberOfHoursWorked;

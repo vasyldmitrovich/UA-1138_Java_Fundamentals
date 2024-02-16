@@ -7,7 +7,7 @@ import java.util.Scanner;
 import static java.lang.System.in;
 
 public class HomeTask03 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Good
         Car[] cars = new Car[4];
 
         cars[0] = new Car("Sedan", 2015, 2.0);

@@ -28,7 +28,7 @@ public class HomeTask04 {
 
     }
 
-    public static int input() {
+    public static int input() {//Nice
         System.out.println("Enter the number: ");
         Scanner scan = new Scanner(in);
         return scan.nextInt();

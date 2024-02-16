@@ -16,7 +16,7 @@ public class PrTask02 {
 
     }
 
-    public static boolean isPrime(int number) {
+    public static boolean isPrime(int number) {//good
         boolean result = true;
         for (int i = 2; i <= number - 1; i++) {
             if (number % i == 0) {

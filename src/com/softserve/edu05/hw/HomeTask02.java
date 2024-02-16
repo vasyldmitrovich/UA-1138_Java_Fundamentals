@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import static java.lang.System.in;
 
-public class HomeTask02 {
+public class HomeTask02 {//Here all is good
     public static void main(String[] args) {
 
         boolean repeat;

@@ -1,6 +1,6 @@
 package com.softserve.edu05.hw;
 
-public class HomeTask01Third {
+public class HomeTask01Third {//Divide some logic to methods and in main method call this methods, do not write all logic in main method
     public static void main(String[] args) {
         Number[] numbers = new Number[5];
         for (int i = 0; i < numbers.length; i++) {

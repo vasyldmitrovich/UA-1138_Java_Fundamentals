@@ -1,6 +1,6 @@
 package com.softserve.edu07.pt;
 
-public class PrTask02 {
+public class PrTask02 {//Ok
     public static void main(String[] args) {
         Person[] people = {
                 new Teacher("John", 25_000),

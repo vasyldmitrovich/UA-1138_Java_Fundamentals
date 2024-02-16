@@ -9,6 +9,8 @@ class Point {
         this.y = y;
     }
 
+    //Add getters and setters
+
     @Override
     public String toString() {
         return "Point{" +

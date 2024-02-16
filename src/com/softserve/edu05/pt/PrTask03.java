@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class PrTask03 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Nice very nice
         int[] arr = generateRandonNumbers(10);
         System.out.println(Arrays.toString(arr));
         System.out.println("The max value is: " + max(arr));

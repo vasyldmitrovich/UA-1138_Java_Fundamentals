@@ -34,7 +34,7 @@ public class PrTask04 {
 
     }
 
-    static void sort(Employee[] employees) {
+    static void sort(Employee[] employees) {//Good
         for (int i = 0; i < employees.length - 1; i++) {
             for (int j = 0; j < employees.length - 1; j++) {
                 if (employees[j].getSalary() < employees[j + 1].getSalary()) {

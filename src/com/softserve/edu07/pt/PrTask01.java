@@ -1,6 +1,6 @@
 package com.softserve.edu07.pt;
 
-public class PrTask01 {
+public class PrTask01 {//Ok
     public static void main(String[] args) {
         Animal[] animals = {
                 new Dog("Poodle", "Rex", 7),

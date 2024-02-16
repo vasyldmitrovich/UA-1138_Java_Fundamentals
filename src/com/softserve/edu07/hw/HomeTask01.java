@@ -3,7 +3,7 @@ package com.softserve.edu07.hw;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class HomeTask01 {
+public class HomeTask01 {//Good
     public static void main(String[] args) {
         Employee[] employees = {
                 new ContractEmployee("ABG087H", "John", 987345672, 25, 168),
