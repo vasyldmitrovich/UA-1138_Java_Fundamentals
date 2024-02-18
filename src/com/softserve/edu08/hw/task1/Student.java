@@ -1,7 +1,7 @@
 package com.softserve.edu08.hw.task1;
 
 public class Student extends Person implements Cloneable {
-    int takedCourse;
+    private int takedCourse;
 
     public Student(FullName fullName, int age, int takedCourse) {
         super(fullName, age);
