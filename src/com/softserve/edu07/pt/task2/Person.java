@@ -1,7 +1,7 @@
 package com.softserve.edu07.pt.task2;
 
 abstract class Person {
-    String name;
+    String name;//add private modifier access
 
     public Person(String name) {
         this.name = name;

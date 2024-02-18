@@ -1,8 +1,8 @@
 package com.softserve.edu07.hw.task1;
 
-class ContractEmployee extends Employee implements Payment {
+class ContractEmployee extends Employee implements Payment {//implements Payment in class Employee
 
-    double hoursWorked;
+    double hoursWorked;//Make fields private and add getters and setters
     double hourlyRate;
     String federalTaxIdmember;
 
