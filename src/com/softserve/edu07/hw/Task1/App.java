@@ -21,11 +21,9 @@ public class App {
                 sortedEmployees) {
             System.out.println(
                     "Employee ID: " + employee.getEmployeeId() + ". " +
-                    "Eame: "  + employee.getName() + ". " +
+                    "Name: "  + employee.getName() + ". " +
                     "The average monthly wage: " + employee.calculatePay());
         }
-
-
 
     }
 }

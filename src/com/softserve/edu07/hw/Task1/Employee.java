@@ -1,7 +1,5 @@
 package com.softserve.edu07.hw.Task1;
 
-import javax.xml.namespace.QName;
-
 public abstract class Employee implements Payment{
     private static int nextId = 1;
     private String employeeId;
