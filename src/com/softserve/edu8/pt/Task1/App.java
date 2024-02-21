@@ -1,20 +1,16 @@
 package com.softserve.edu8.pt.Task1;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class App {
     public static void main(String[] args) {
-        List<HeavyBox> boxes = new ArrayList<>();
-        boxes.add(new HeavyBox(12, "cups"));
-        boxes.add(new HeavyBox(3, "plates"));
-        boxes.add(new HeavyBox(6, "knifes"));
+        Department department = new Department("Sales department", "Kyiv", "Kovpaka", 19);
+        Department department2 = department.clone();
 
-        boxes.get(0).setWeight(1);
+        System.out.println(department);
+        System.out.println(department2);
 
-        boxes.clear();
-        for (HeavyBox box : boxes) {
-            System.out.println(box);
-        }
+        department.getAddress().setCity("Lviv");
+
+        System.out.println(department);
+        System.out.println(department2);
     }
 }

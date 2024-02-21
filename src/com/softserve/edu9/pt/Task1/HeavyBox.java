@@ -1,4 +1,4 @@
-package com.softserve.edu8.pt.Task1;
+package com.softserve.edu9.pt.Task1;
 
 public class HeavyBox {
     private int weight;
