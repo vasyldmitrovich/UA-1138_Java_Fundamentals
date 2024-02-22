@@ -1,4 +1,4 @@
-package com.softserve.edu8.pt.hw.Task1;
+package com.softserve.edu8.pt.hw.Task1_2;
 
 public class App {
     public static void main(String[] args) {
@@ -13,11 +13,8 @@ public class App {
         Student student2 = student.clone();
 
         student2.setAmountOfCourses(1);
-        student2.getFullName().setFirstName("Kolia");
 
-        System.out.println(student.info());
-        System.out.println(student.activity());
-        System.out.println("_______________");
+
         System.out.println(student2.info());
         System.out.println(student2.activity());
     }

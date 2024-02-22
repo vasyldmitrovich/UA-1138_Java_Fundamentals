@@ -50,8 +50,6 @@ public class Department implements Cloneable{
         }
     }
 
-
-
     public class Address implements Cloneable {
         private String city;
         private String street;

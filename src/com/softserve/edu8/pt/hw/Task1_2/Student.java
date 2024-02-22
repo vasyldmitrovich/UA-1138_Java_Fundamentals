@@ -1,4 +1,4 @@
-package com.softserve.edu8.pt.hw.Task1;
+package com.softserve.edu8.pt.hw.Task1_2;
 
 public class Student extends Person implements Cloneable{
     private int amountOfCourses;
@@ -27,7 +27,7 @@ public class Student extends Person implements Cloneable{
     }
 
     @Override
-    protected Student clone(){
+    public Student clone(){
         try {
             Student copyOfStudent = (Student) super.clone();
             FullName copyOfFullName = copyOfStudent.getFullName().clone();
