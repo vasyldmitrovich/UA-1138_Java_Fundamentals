@@ -3,7 +3,7 @@ package com.softserve.edu04.pt;
 import java.util.Scanner;
 
 public class ContinentFinder {
-    public enum Continent {
+    public enum Continent {//Move to file Continent.java
         Europe, Asia, Africa, North_America, South_America,
     }
 

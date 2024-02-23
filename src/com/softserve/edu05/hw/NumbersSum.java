@@ -2,7 +2,7 @@ package com.softserve.edu05.hw;
 
 import java.util.Scanner;
 
-public class NumbersSum {
+public class NumbersSum {//Good
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         char choice;

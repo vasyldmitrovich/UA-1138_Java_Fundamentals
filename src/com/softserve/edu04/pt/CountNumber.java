@@ -2,7 +2,7 @@ package com.softserve.edu04.pt;
 
 import java.util.Scanner;
 
-public class CountNumber {
+public class CountNumber {//Ok
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
