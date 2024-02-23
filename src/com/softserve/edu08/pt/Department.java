@@ -34,7 +34,7 @@ class Department implements Cloneable {
 
 
     static class Address implements Cloneable {
-        String city;
+        String city;//Make private fields
         String street;
         int building;
 

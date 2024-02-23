@@ -1,6 +1,6 @@
 package com.softserve.edu08.hw.task1;
 
-public class Hwtask1 {
+public class Hwtask1 {//Ok
     public static void main(String[] args) {
         FullName fullName = new FullName("John", "Parker");
         Person person1 = new Person(fullName, 20) {
