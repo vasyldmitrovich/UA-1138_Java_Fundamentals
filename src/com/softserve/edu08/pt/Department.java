@@ -1,7 +1,7 @@
 package com.softserve.edu08.pt;
 
 public class Department implements Cloneable {
-    String name;
+    String name;//Make private
     Address address;
 
     public String getName() {
@@ -37,7 +37,7 @@ public class Department implements Cloneable {
     }
 
     static class Address implements Cloneable {
-        String city;
+        String city;//Make private
         String street;
         int building;
 

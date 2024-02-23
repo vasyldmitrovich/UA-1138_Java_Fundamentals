@@ -1,6 +1,6 @@
 package com.softserve.edu08.hw;
 
-public class Student extends Person implements Cloneable {
+public class Student extends Person implements Cloneable {//Do not correct order of methods see code convention
     private int course;
 
     public Student(FullName fullName, int age, int course) {

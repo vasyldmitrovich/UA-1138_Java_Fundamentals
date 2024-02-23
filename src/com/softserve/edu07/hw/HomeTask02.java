@@ -1,6 +1,6 @@
 package com.softserve.edu07.hw;
 
-public class HomeTask02 {
+public class HomeTask02 {//Ok
     public static void main(String[] args) {
         Vehicle[] vehicles = {
                 new Liner(1000, 4),

@@ -1,6 +1,6 @@
 package com.softserve.edu08.hw;
 
-abstract class Person {
+abstract class Person {//Good
     private FullName fullName;
     private int age;
 
