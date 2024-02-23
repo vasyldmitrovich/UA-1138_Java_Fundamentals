@@ -17,7 +17,7 @@ public class Pt1 {
     }
 }
 
-interface Animals {
+interface Animals {//Move to file Animals.java and rename to Animal without 's'
     void voice();
     void feed();
 }

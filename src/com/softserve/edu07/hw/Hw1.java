@@ -21,7 +21,7 @@ public class Hw1 {
     }
 }
 
-interface Payment {
+interface Payment {//Move to file Payment.java
     double calculatePay();
     String getEmployeeId();
 }

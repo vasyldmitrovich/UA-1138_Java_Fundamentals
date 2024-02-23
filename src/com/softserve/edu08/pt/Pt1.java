@@ -26,7 +26,7 @@ public class Pt1 {
 }
 
 class Department  implements Cloneable {
-    String name;
+    String name;//make private
     Address address;
 
     @Override
