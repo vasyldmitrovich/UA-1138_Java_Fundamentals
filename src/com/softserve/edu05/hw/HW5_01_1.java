@@ -2,7 +2,7 @@ package com.softserve.edu05.hw;
 
 import java.util.Scanner;
 
-public class HW5_01_1 {
+public class HW5_01_1 {//Good
     private static final Scanner SCANNER = new Scanner(System.in);
     private static final int[] daysInMonths = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
