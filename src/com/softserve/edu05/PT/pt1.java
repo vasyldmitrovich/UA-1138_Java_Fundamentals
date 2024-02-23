@@ -3,7 +3,7 @@ package com.softserve.edu05.PT;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class pt1 {
+public class pt1 {//Rename to Pt1
     private static final Scanner SCANNER = new Scanner(System.in);
 
     public static void main(String... args) {

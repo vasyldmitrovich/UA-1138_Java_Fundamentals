@@ -2,7 +2,7 @@ package com.softserve.edu05.PT;
 
 import java.util.Scanner;
 
-public class pt2 {
+public class pt2 {//Rename to Pt2
     private static final Scanner SCANNER = new Scanner(System.in);
 
     public static void main(String... args) {
@@ -15,7 +15,7 @@ public class pt2 {
         }
     }
 
-    public static boolean isPrime(int number) {
+    public static boolean isPrime(int number) {//Good
         if (number < 0) number = -number;
         for (int i = 2; i <= number - 1; i++) {
             if (number % i == 0) return false;

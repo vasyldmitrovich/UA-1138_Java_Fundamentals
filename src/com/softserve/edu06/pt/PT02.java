@@ -12,7 +12,7 @@ public class PT02 {
     }
 }
 
-class Point {
+class Point {//All classes should be in separate files
     private int x;
     private int y;
 

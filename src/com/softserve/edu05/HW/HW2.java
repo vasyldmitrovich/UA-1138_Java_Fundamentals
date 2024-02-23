@@ -13,7 +13,7 @@ public class HW2 {
         }
 
         int result;
-        if (numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4] > 0) {
+        if (numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4] > 0) {//this is not good decision
             result = numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4];
         } else {
             result = numbers[5] * numbers[6] * numbers[7] * numbers[8] * numbers[9];

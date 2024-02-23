@@ -3,7 +3,7 @@ package com.softserve.edu05.HW;
 import java.util.Scanner;
 
 public class HW3 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Separate logic to methods and call this methods here
         Scanner scanner = new Scanner(System.in);
         int[] numbers = new int[5];
 

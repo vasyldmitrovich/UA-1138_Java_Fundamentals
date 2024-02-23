@@ -16,7 +16,7 @@ public class HW01 {
     }
 }
 
-abstract class Bird {
+abstract class Bird {//Move to file Bird.java
     private boolean feather;
     private boolean layEggs;
 

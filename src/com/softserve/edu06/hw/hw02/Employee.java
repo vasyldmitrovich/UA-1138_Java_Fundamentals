@@ -1,7 +1,7 @@
 package com.softserve.edu06.hw.hw02;
 
 public class Employee {
-    public String name;
+    public String name;//Why public make private fields
     public int age;
     public double salary;
 

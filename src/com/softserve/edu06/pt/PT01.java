@@ -14,7 +14,7 @@ public class PT01 {
     }
 }
 
-abstract class Car {
+abstract class Car {//All classes should be in separate files
     private String model;
     private int maxSpeed;
     private int yearsOfProduction;

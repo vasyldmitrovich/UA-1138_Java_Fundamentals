@@ -2,7 +2,7 @@ package com.softserve.edu05.HW;
 
 import java.util.Scanner;
 
-public class HW1 {
+public class HW1 {//Ok
     public static void main(String[] args) {
         int[] daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 

@@ -49,7 +49,7 @@ public class pt4 {
     }
 }
 
-class Employee {
+class Employee {//Move to file Employee.java
     private String name;
     private int department;
     private double salary;
