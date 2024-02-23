@@ -1,6 +1,6 @@
 package com.softserve.edu07.hw.Task1;
 
-public abstract class Employee implements Payment{
+public abstract class Employee implements Payment{//All is good
     private static int nextId = 1;
     private String employeeId;
     private String name;

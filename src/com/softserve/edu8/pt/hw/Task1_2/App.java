@@ -1,6 +1,6 @@
 package com.softserve.edu8.pt.hw.Task1_2;
 
-public class App {
+public class App {//Good
     public static void main(String[] args) {
         Student student = new Student(new FullName("Vitalii", "Kravtsov"), 29, 3);
         Student student1 = new Student(new FullName("Petro", "Piatochkin"), 25, 4);
