@@ -1,6 +1,6 @@
 package com.softserve.edu06.pt.pt03;
 
-public class Pt03 {
+public class Pt03 {//Veri nice
     public static void main(String[] args) {
         Line[] lines = {
                 new Line(new Point(1, 5), new Point(2, 4)),

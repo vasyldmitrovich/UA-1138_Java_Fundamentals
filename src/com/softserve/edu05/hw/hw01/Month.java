@@ -1,6 +1,6 @@
 package com.softserve.edu05.hw.hw01;
 
-public enum Month {
+public enum Month {//Nice
     JANUARY("January"),
     FEBRUARY("February"),
     MARCH("March"),

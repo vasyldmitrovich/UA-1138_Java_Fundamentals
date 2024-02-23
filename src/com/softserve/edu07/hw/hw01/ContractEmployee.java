@@ -1,6 +1,6 @@
 package com.softserve.edu07.hw.hw01;
 
-public class ContractEmployee extends Employee implements Payment {
+public class ContractEmployee extends Employee implements Payment {//Payment implement in abstract class Employee
     public static final String CONTRACT = "Contract";
     private int federalTaxIdmember;
     private double hourlyRate;
@@ -15,6 +15,8 @@ public class ContractEmployee extends Employee implements Payment {
         this.numbersOfHoursWorked = numbersOfHoursWorked;
         calculatePay();
     }
+
+    //Add getters and setters
 
     @Override
     public double averageSalary() {

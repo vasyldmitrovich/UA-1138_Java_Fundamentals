@@ -11,6 +11,8 @@ public class Employee {
         this.salary = salary;
     }
 
+    //Add getters and setters, because you will not have access to fields
+
     public String report(){
         return String.format("Name: %s, Age: %d," +
                 " Salary: \u20B4 %.2f.", name, age, salary);

@@ -1,6 +1,6 @@
 package com.softserve.edu07.pt.pt01;
 
-public class Pt01 {
+public class Pt01 {//Good
     public static void main(String[] args) {
         Animal[] animals = {
                 new Cat(),

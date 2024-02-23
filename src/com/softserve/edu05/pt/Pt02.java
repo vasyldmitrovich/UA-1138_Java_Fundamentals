@@ -8,7 +8,7 @@ public class Pt02 {
     public static void main(String[] args) {
         System.out.println("Enter a number: ");
         int number = SCANNER.nextInt();
-        if (isPrime(number)) {
+        if (isPrime(number)) {//This is nice, cool
             System.out.println("The number " + number + " is prime");
         } else {
             System.out.println("The number " + number + " is not prime");

@@ -1,7 +1,7 @@
 package com.softserve.edu06.hw.hw01;
 
 public class Hw01 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Good
         Bird[] birds = {
                 new Eagle(" has feathers", true, "Eagle"),
                 new Swallow(" has feathers", true, "Swallow"),

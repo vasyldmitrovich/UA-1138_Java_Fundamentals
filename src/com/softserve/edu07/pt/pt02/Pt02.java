@@ -1,6 +1,6 @@
 package com.softserve.edu07.pt.pt02;
 
-public class Pt02 {
+public class Pt02 {//All is good
     public static void main(String[] args) {
         Person[] peoples = {
 //                new Student("Bob"),

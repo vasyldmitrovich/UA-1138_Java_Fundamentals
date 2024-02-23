@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Hw03 {
     private static Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {//All is good
         Car[] array = {
                 new Car("Sedan", 2006, 1.9),
                 new Car("Hatcback", 2016, 2.0),

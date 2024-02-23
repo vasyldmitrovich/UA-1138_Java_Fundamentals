@@ -3,8 +3,10 @@ package com.softserve.edu05.hw.hw01;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class Main {//All good
+
     public static final Scanner SCANNER = new Scanner(System.in);
+
     public static void main(String[] args) {
         int[] daysMonth = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
         int[] numbers = new int[10];

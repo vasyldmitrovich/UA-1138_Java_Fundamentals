@@ -2,7 +2,7 @@ package com.softserve.edu05.hw.hw01;
 
 import static com.softserve.edu05.hw.hw01.Main.SCANNER;
 
-public class Numbers {
+public class Numbers {//Very nice
     private int number;
 
 

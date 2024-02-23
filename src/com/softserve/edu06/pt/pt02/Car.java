@@ -1,6 +1,6 @@
 package com.softserve.edu06.pt.pt02;
 
-abstract class Car {
+abstract class Car {//Nice
     private String model;
     private int maxSpeed;
     private int yearOfProduction;

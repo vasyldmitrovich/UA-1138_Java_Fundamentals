@@ -3,7 +3,7 @@ package com.softserve.edu05.hw;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Hw04 {
+public class Hw04 {//ok
     private static Scanner scanner = new Scanner(System.in);
     private static Random random = new Random();
 
