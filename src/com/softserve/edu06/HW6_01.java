@@ -1,6 +1,6 @@
 package com.softserve.edu06;
 
-public class HW6_01 {
+public class HW6_01 {//Ok
     public static void main(String[] args) {
         Bird[] birds = new Bird[4];
         birds[0] = new Eagle(true, true);

@@ -16,7 +16,7 @@ public class HW5_01_2 {
         calculation(numbers);
     }
 
-    private static void calculation(int[] numbers) {
+    private static void calculation(int[] numbers) {//Good
         boolean isFirstFivePositive = true;
         for (int i = 0; i < 5; i++) {
             if (numbers[i] < 0) isFirstFivePositive = false;
@@ -31,7 +31,7 @@ public class HW5_01_2 {
         }
     }
 
-    private static long sum(int[] numbers) {
+    private static long sum(int[] numbers) {//Nice
         long result = 0;
         for (int i = 0; i < 5; i++) {
             result = result + numbers[i];
@@ -39,7 +39,7 @@ public class HW5_01_2 {
         return result;
     }
 
-    private static long product(int[] numbers) {
+    private static long product(int[] numbers) {//Ok
         long result = 1;
         for (int i = numbers.length - 1; i > numbers.length - 6; i--) {
             result = result * numbers[i];
