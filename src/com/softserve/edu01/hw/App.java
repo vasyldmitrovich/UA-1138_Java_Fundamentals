@@ -10,15 +10,15 @@ public class App {
         System.out.print("Enter the radius of the flower bed: ");
         double radius = scanner.nextDouble();
 
-        double perimeter = calculatePerimeter(radius);
-        double area = calculateArea(radius);
+        //double perimeter = calculatePerimeter(radius);
+//        double area = calculateArea(radius);
     }
 
-    private static double calculateArea() {
-        return 0;
-    }
+//    private static double calculateArea() {
+//        return 0;
+//    }
 
-    private static double calculateArea() {
-        return 0;
-    }
+//    private static double calculateArea() {
+//        return 0;
+//    }
 }

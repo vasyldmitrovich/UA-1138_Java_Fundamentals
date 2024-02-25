@@ -16,7 +16,7 @@ public class Practic2 {
         }
     }
 
-    public static boolean isPrime(int number) {
+    public static boolean isPrime(int number) {//Ok
         for (int i = 2; i <= number - 1; i++) {
             if (number % i == 0) return false;
         }

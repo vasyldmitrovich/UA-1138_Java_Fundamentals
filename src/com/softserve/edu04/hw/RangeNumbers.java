@@ -2,7 +2,7 @@ package com.softserve.edu04.hw;
 
 import java.util.Scanner;
 
-public class RangeNumbers {
+public class RangeNumbers {//Ok
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

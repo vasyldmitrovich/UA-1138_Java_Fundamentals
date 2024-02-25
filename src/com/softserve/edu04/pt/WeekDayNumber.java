@@ -15,7 +15,7 @@ public class WeekDayNumber {
         scanner.close();
     }
 
-    enum dayOfWeek {
+    enum dayOfWeek {//Move to file and rename to DayOfWeek.java
         Monday("Monday", "Понеділок"),
         Tuesday("Tuesday", "Вівторок"),
         Wednesday("Wednesday", "Середа"),

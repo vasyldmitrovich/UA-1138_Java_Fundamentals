@@ -3,7 +3,7 @@ package com.softserve.edu04.hw;
 import java.util.Scanner;
 
 public class ErrorsMapping {
-    public enum HTTPErrors {
+    public enum HTTPErrors {//Move to file HTTPErrors.java
         Error_400("Bad Request"),
         Error_401("Unauthorized"),
         Error_404("Not Found"),
