@@ -1,6 +1,6 @@
 package com.softserve.edu08.hw.HW01;
 
-abstract class Person {
+class Person {
     private int age;
     private FullName fullName;
 
@@ -21,5 +21,9 @@ abstract class Person {
         return (getFullName().firstnName + getFullName().lastName + getAge());
     }
 
-    public abstract String activity();
+    public String activity() {
+        return "Working";
+    }
+
+
 }
