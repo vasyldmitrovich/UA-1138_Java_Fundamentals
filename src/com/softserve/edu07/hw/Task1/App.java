@@ -1,10 +1,9 @@
 package com.softserve.edu07.hw.Task1;
 
-import java.sql.Array;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class App {
+public class App {//Ok
     public static void main(String[] args) {
         Employee[] employees = {
                 new SalariedEmployee("Bob", 160, 28),

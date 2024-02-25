@@ -1,6 +1,6 @@
 package com.softserve.edu8.pt.hw.Task1_2;
 
-public class Student extends Person implements Cloneable{
+public class Student extends Person implements Cloneable {//Ok
     private int amountOfCourses;
 
     public Student(FullName fullName, int age, int amountOfCourses) {

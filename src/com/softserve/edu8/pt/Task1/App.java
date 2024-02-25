@@ -1,6 +1,6 @@
 package com.softserve.edu8.pt.Task1;
 
-public class App {
+public class App {//Ok
     public static void main(String[] args) {
         Department department = new Department("Sales department", "Kyiv", "Kovpaka", 19);
         Department department2 = department.clone();
