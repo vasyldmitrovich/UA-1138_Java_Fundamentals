@@ -1,6 +1,6 @@
 package com.softserve.edu07.hw.Task1;
 
-public class ContractEmployee extends Employee implements Payment{
+public class ContractEmployee extends Employee{
     private String federalTaxIdMember;
     private double fixedMonthlyPayment;
 

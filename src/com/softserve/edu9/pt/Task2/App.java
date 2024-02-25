@@ -1,6 +1,8 @@
 package com.softserve.edu9.pt.Task2;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -19,8 +21,6 @@ public class App {
                 numbers.add(num);
             }
         }
-
         System.out.println(numbers);
-
     }
 }
