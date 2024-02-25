@@ -1,6 +1,6 @@
 package com.softserve.edu08.hw.task1;
 
-public class FullName {
+public class FullName {//Ok
     private String firstName;
     private String lastName;
 

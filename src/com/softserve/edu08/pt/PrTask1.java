@@ -1,6 +1,6 @@
 package com.softserve.edu08.pt;
 
-public class PrTask1 {
+public class PrTask1 {//Ok
     public static void main(String[] args) {
         Department departmentOriginal = new Department(
                 "Softserve",
