@@ -12,6 +12,7 @@ public class App {
             int randomNumber = random.nextInt(101);
             myCollection.add(randomNumber);
         }
+        List<Integer> copyMyCollection = new ArrayList<>(myCollection);
 
         // Find and put element to newCollection if element > 5
         List<Integer> newCollection = new ArrayList<>();
@@ -32,11 +33,10 @@ public class App {
         System.out.println(myCollection);
 
 
-        // This block of code provokes an error
-        myCollection.add(2, 1);
-        myCollection.add(8, -3);
-        myCollection.add(5, -4);
+        copyMyCollection.add(2, 1);
+        copyMyCollection.add(8, -3);
+        copyMyCollection.add(5, -4);
 
-        System.out.println(myCollection);
+        System.out.println(copyMyCollection);
     }
 }

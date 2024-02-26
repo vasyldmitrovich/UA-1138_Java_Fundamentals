@@ -33,6 +33,7 @@ public class StudentManager {
     }
 
     public void printStudents(List<Student> students, int course) {
+        System.out.println("Students who study course " + course + ": ");
         for (Student student : students) {
             if(student.getCourse() == course) {
                 System.out.println(student.getName());

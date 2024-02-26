@@ -1,9 +1,5 @@
 package com.softserve.edu9.hw.Task2;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class Student {
     private String name;
     private int group;
@@ -59,15 +55,5 @@ public class Student {
         }
 
         return sumOfGrades/(double)grades.length;
-    }
-
-    @Override
-    public String toString() {
-        return "Student{" +
-                "name='" + name + '\'' +
-                ", group=" + group +
-                ", course=" + course +
-                ", grades=" + Arrays.toString(grades) +
-                '}';
     }
 }

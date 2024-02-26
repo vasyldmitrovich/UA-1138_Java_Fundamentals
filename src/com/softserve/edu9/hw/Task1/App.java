@@ -1,5 +1,6 @@
 package com.softserve.edu9.hw.Task1;
 
+import java.sql.SQLOutput;
 import java.util.*;
 
 public class App {
@@ -14,50 +15,59 @@ public class App {
 
         // Swap min and max element
         swapMaxAndMin(myCollection);
-        System.out.println(myCollection);
 
         // Insert a random three-digit number before the first negative element of the list
         insertNumbers(myCollection);
-        System.out.println(myCollection);
 
         // Insert a zero between all neighboring elements collection myCollection with different signs
         insertZeroBetweenNumbers(myCollection);
-        System.out.println(myCollection);
 
         /*
             Copy the first k elements of the myCollection to the list1, in direct order,
             and the rest to the list2 in reverse order.
          */
-        List<Integer> list1 = new ArrayList<>();
-        List<Integer> list2 = new ArrayList<>();
+
         int k = 5;
-        copyKelementsToLists(myCollection, list1, list2, k);
-        System.out.println(myCollection);
+        List<List<Integer>> doubleList = copyKelementsToLists(myCollection, k);
+        List<Integer> list1 = doubleList.get(0);
+        List<Integer> list2 = doubleList.get(1);
+
         System.out.println(list1);
         System.out.println(list2);
+
 
         /*
             In a list myCollection remove the last even element (if there are even elements in the list).
             If there is no such element, display a message.
          */
-
-        System.out.println(myCollection);
         removeLastEven(myCollection);
-        System.out.println(myCollection);
 
         // Remove the last minimum
         removeTheLastMinimum(myCollection);
-        System.out.println(myCollection);
-    }
-    
-    public static void swapMaxAndMin(List<Integer> list) {
-        int max = Collections.max(list);
-        int min = Collections.min(list);
-        list.set(list.indexOf(min), max);
-        list.set(list.indexOf(max), min);
+
     }
 
-    public static void insertNumbers (List<Integer> list) {
+    public static List<Integer> swapMaxAndMin(List<Integer> list) {
+        List<Integer> copyList = new ArrayList<>(list);
+        int max = Collections.max(copyList);
+        int min = Collections.min(copyList);
+
+        int maxValueIndex = copyList.indexOf(max);
+        int minValueIndex = copyList.indexOf(min);
+
+        copyList.set(maxValueIndex, min);
+        copyList.set(minValueIndex, max);
+
+        System.out.println("Before swapping");
+        System.out.println(list);
+
+        System.out.println("After swapping");
+        System.out.println(copyList);
+        return copyList;
+    }
+
+    public static List<Integer> insertNumbers (List<Integer> list) {
+        List<Integer> copyList = new ArrayList<>(list);
         int theFirstNegativeIndex = 0;
 
         // Find first negative
@@ -68,53 +78,76 @@ public class App {
             }
         }
 
-        // Add 3 digits to the list
+        // Add 3-digit number to the list
         for (int i = 0; i < 3; i++) {
-            list.add(theFirstNegativeIndex, random.nextInt(101)-50);
+            copyList.add(theFirstNegativeIndex, random.nextInt(100, 201));
         }
+
+        System.out.println("3-digit number added before the first negative element of the list" );
+        System.out.println(copyList);
+        return copyList;
     }
 
-    public static void insertZeroBetweenNumbers(List<Integer> list) {
-        for (int i = 0; i < list.size()-1; i++) {
-            if(     (list.get(i) < 0 && list.get(i+1) > 0) ||
-                    (list.get(i) > 0 && list.get(i+1) < 0)
+    public static List<Integer> insertZeroBetweenNumbers(List<Integer> list) {
+        List<Integer> copyList = new ArrayList<>(list);
+        for (int i = 0; i < copyList.size()-1; i++) {
+            if(     (copyList.get(i) < 0 && copyList.get(i+1) > 0) ||
+                    (copyList.get(i) > 0 && copyList.get(i+1) < 0)
             ) {
-                list.add(i+1, 0);
+                copyList.add(i+1, 0);
             }
         }
+
+        System.out.println("Inserted zero between different sign");
+        System.out.println(copyList);
+        return copyList;
     }
 
-    public static void copyKelementsToLists(List<Integer> originList,
-                                            List<Integer> list1,
-                                            List<Integer> list2,
-                                            int k)
-    {
+    public static List<List<Integer>> copyKelementsToLists(List<Integer> originList, int k) {
+        List<List<Integer>> doubleArrayList = new ArrayList<>();
+        List<Integer> list1 = new ArrayList<>();
+        List<Integer> list2 = new ArrayList<>();
+
         //Copy to the list1, in direct order
-        for (int i = 0; i <= k; i++) {
+        for (int i = 0; i < k; i++) {
             list1.add(originList.get(i));
         }
 
         //Copy to the list2, in reverse order
-        for (int i = originList.size()-1; i > k; i--) {
+        for (int i = originList.size()-1; i >= k; i--) {
             list2.add(originList.get(i));
         }
+
+
+        doubleArrayList.add(list1);
+        doubleArrayList.add(list2);
+
+        System.out.println("Copy to list1 directly and list2 in reversed");
+        return doubleArrayList;
     }
 
     public static void removeLastEven(List<Integer> list) {
-        for (int i = list.size()-1; i >= 0; i--) {
-            if(list.get(i) %2 != 0) {
-                list.remove(i);
-                break;
-            } else if(i == 0 && list.get(i) %2 != 0){
-                System.out.println("There are no even elements in the list");
+        List<Integer> copyList = new ArrayList<>(list);
+        for (int i = copyList.size()-1; i >= 0 ; i--) {
+            if (copyList.get(i) %2 == 0) {
+                copyList.remove(i);
+                System.out.println("Last even value removed");
+                return;
             }
         }
+        System.out.println("There are no even elements in the list");
     }
 
     public static void removeTheLastMinimum(List<Integer> list) {
-        int min = Collections.min(list);
-        if((list.indexOf(min) != list.size()-1)) {
-            list.remove(list.indexOf(min)+1);
+        List<Integer> copyList = new ArrayList<>(list);
+
+        int min = Collections.min(copyList);
+        if(copyList.indexOf(min) != copyList.size()-1) {
+            copyList.remove(copyList.indexOf(min)+1);
+            System.out.println("The element following the first minimum deleted");
+            return;
         }
+
+        System.out.println("There are nothing to delete");
     }
 }
