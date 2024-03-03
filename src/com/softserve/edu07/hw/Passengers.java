@@ -1,7 +1,7 @@
 package com.softserve.edu07.hw;
 
 abstract class Passengers {
-    int passengers;//Make private
+    private int passengers;//Make private
 
     public Passengers(int passengers) {
         this.passengers = passengers;

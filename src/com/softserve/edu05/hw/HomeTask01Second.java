@@ -1,9 +1,5 @@
 package com.softserve.edu05.hw;
 
-import java.util.Scanner;
-
-import static java.lang.System.in;
-
 public class HomeTask01Second {
     public static void main(String[] args) {
         Number[] numbers = new Number[10];
@@ -37,18 +33,3 @@ public class HomeTask01Second {
     }
 }
 
-class Number {
-    private int number;
-
-    public Number() {
-    }
-
-    public int getNumber() {
-        return number;
-    }
-
-    public void input() {
-        Scanner scan = new Scanner(in);
-        this.number = scan.nextInt();
-    }
-}

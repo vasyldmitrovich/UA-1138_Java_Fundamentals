@@ -1,8 +1,8 @@
 package com.softserve.edu08.pt;
 
 public class Department implements Cloneable {
-    String name;//Make private
-    Address address;
+    private String name;//Make private
+    private Address address;
 
     public String getName() {
         return name;

@@ -2,91 +2,55 @@ package com.softserve.edu04.pt;
 
 public class PrTask04 {
     public static void main(String[] args) {//Too much code in main method, divide to separate methods
-        Product product1 = new Product("Table", 100, 2);
-        Product product2 = new Product("Lamp", 10, 1);
-        Product product3 = new Product("Chair", 50, 4);
-        Product product4 = new Product("Cup", 5, 4);
+        Product[] products = {
+                new Product("Table", 20, 20),
+                new Product("Lamp", 10, 1),
+                new Product("Chair", 50, 4),
+                new Product("Cup", 55, 4),
+        };
 
-        Product mostExpensive = product1;
-        if (product2.getPrice() > mostExpensive.getPrice()){
-            mostExpensive = product2;
-        }
-        if (product3.getPrice() > mostExpensive.getPrice()){
-            mostExpensive = product3;
-        }
-        if (product4.getPrice() > mostExpensive.getPrice()){
-            mostExpensive = product4;
-        }
-        System.out.println("The most expensive product is " + mostExpensive.getName() + ", quantity = " + mostExpensive.getQuantity());
+        System.out.println("The most expensive product is " + getMostExpensiveProductName(products) + ", quantity = " + getMostExpensiveProductQuantity(products));
+        System.out.println("The products with max quantity of " + getMaxQuantityProduct(products) + " are the following: " + getMaxQuantityProductName(products));
+    }
 
-        int maxQuantity = product1.getQuantity();
-        if (product2.getQuantity() > maxQuantity){
-            maxQuantity = product2.getQuantity();
+    public static String getMostExpensiveProductName(Product[] products) {
+        Product mostExpensive = products[0];
+        for (int i = 0; i < products.length; i++) {
+            if (products[i].getPrice() > mostExpensive.getPrice()) {
+                mostExpensive = products[i];
+            }
         }
-        if (product3.getQuantity() > maxQuantity){
-            maxQuantity = product3.getQuantity();
-        }
-        if (product4.getQuantity() > maxQuantity){
-            maxQuantity = product4.getQuantity();
-        }
-        System.out.println("The products with max quantity of " + maxQuantity + " are the following: ");
+        return mostExpensive.getName();
+    }
 
-        if (product1.getQuantity() == maxQuantity){
-            System.out.println(" " + product1.getName());
+    public static int getMostExpensiveProductQuantity(Product[] products) {
+        Product mostExpensive = products[0];
+        for (int i = 0; i < products.length; i++) {
+            if (products[i].getPrice() > mostExpensive.getPrice()) {
+                mostExpensive = products[i];
+            }
         }
-        if (product2.getQuantity() == maxQuantity){
-            System.out.println(" " + product2.getName());
+        return mostExpensive.getQuantity();
+    }
+
+    public static int getMaxQuantityProduct(Product[] products) {
+        Product maxQuantity = products[0];
+        for (int i = 0; i < products.length; i++) {
+            if (products[i].getQuantity() > maxQuantity.getQuantity()) {
+                maxQuantity = products[i];
+            }
         }
-        if (product3.getQuantity() == maxQuantity){
-            System.out.println(" " + product3.getName());
+        return maxQuantity.getQuantity();
+    }
+
+    public static String getMaxQuantityProductName(Product[] products) {
+        Product maxQuantity = products[0];
+        for (int i = 0; i < products.length; i++) {
+            if (products[i].getQuantity() > maxQuantity.getQuantity()) {
+                maxQuantity = products[i];
+            }
         }
-        if (product4.getQuantity() == maxQuantity){
-            System.out.println(" " + product4.getName());
-        }
+        return maxQuantity.getName();
     }
 }
 
-class Product{
-    private String name;
-    private double price;
-    private int quantity;
-
-    public Product(String name, double price, int quantity) {
-        this.name = name;
-        this.price = price;
-        this.quantity = quantity;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public int getQuantity() {
-        return quantity;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
-    }
-
-    @Override
-    public String toString() {
-        return "Product{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
-                ", quantity=" + quantity +
-                '}';
-    }
-}

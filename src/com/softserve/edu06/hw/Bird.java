@@ -1,8 +1,8 @@
 package com.softserve.edu06.hw;
 
 abstract class Bird {
-    int feathers;//Where is modifier access private?
-    int layEggs;
+    protected int feathers;//Where is modifier access private?
+    protected int layEggs;
 
     abstract void fly();//After all methods
 

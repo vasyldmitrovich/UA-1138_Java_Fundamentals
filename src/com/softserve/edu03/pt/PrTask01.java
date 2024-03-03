@@ -39,15 +39,16 @@ public class PrTask01 {
 //If your new solution is better, you could delete the oldest solution
  package com.softserve.edu03.pt;
 
- import java.lang.*;
- import java.util.*;
+import java.util.Scanner;
 
 public class PrTask01 {
     public static void main (String... args){//Add spaces for good readable of code
         int value1 = getNumber("Enter first number: ");
         int value2 = getNumber("Enter second number: ");
+
         int sum = getTotal(value1, value2);
         double average = getAverage(value1, value2);
+
         System.out.println("The sum of " + value1 + " and " + value2 + " is " + sum);
         System.out.println("The average of " + value1 + " and " + value2 + " is " + average);
     }

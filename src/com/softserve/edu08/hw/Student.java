@@ -17,17 +17,17 @@ public class Student extends Person implements Cloneable {//Do not correct order
     }
 
     @Override
+    public String activity() {
+        return "I study at university";
+    }
+
+    @Override
     protected Student clone() {
         try {
             return (Student) super.clone();
         } catch (CloneNotSupportedException e) {
             throw new RuntimeException(e);
         }
-    }
-
-    @Override
-    public String activity() {
-        return "I study at university";
     }
 
     @Override

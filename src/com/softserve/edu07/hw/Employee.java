@@ -1,6 +1,6 @@
 package com.softserve.edu07.hw;
 
-abstract class Employee {
+abstract class Employee implements Payment {
     protected String employeeId;
     protected String name;
 

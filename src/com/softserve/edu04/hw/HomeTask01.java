@@ -7,6 +7,7 @@ public class HomeTask01 {
         float first = input("Input first number: ");
         float second = input("Input second number: ");
         float third = input("Input third number: ");
+
         if (((-5.0 <= first) && (first <= 5.0)) && ((-5.0 <= second) && (second <= 5.0)) && ((-5.0 <= third) && (third <= 5.0))) {
             System.out.println("All numbers belong to the range [-5, 5]");
         } else {

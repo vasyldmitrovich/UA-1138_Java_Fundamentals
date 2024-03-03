@@ -1,6 +1,7 @@
 package com.softserve.edu03.hw;
 
 import java.util.Scanner;
+
 import static java.lang.Math.sqrt;
 
 public class TriangleArea {
@@ -9,8 +10,7 @@ public class TriangleArea {
         int side2 = getInput("Input side 2: ");
         int side3 = getInput("Input side 3: ");
 
-        double area = triangleArea(side1, side2, side3);
-        System.out.println("The area of triangle is " + area);//You can call this method here
+        System.out.println("The area of triangle is " + triangleArea(side1, side2, side3));//You can call this method here
     }
 
     private static double triangleArea(int side1, int side2, int side3) {//Good

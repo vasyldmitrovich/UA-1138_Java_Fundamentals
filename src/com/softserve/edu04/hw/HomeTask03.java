@@ -9,6 +9,7 @@ public class HomeTask03 {
         int errorNumber = input("Input error number: ");//Good
         //Add spaces for good readable of code
         HTTPError description = null;
+
         switch (errorNumber) {
             case 400 -> description = HTTPError.BAD_REQUEST;
             case 401 -> description = HTTPError.UNAUTHORIZED;
@@ -41,6 +42,7 @@ public class HomeTask03 {
             case 451 -> description = HTTPError.UNAVAILABLE_FOR_LEGAL_REASONS;
             default -> {}
         }
+
         if ((errorNumber >= 400) && (errorNumber < 500) && (description != null)){
             System.out.println("Error description is: " + description);
         } else if ((errorNumber >= 400) && (errorNumber < 500)) {
@@ -57,8 +59,3 @@ public class HomeTask03 {
 
 }
 
-enum HTTPError {//Move to file HTTPError.java not here
-    BAD_REQUEST, UNAUTHORIZED, PAYMENT_REQUIRED, FORBIDDEN, NOT_FOUND, METHOD_NOT_ALLOWED, NOT_ACCEPTABLE, PROXY_AUTHENTICATION_REQUIRED, REQUEST_TIMEOUT, CONFLICT, GONE, LENGTH_REQUIRED, PRECONDITION_FAILED, PAYLOAD_TOO_LARGE, URI_TOO_LONG, UNSUPPORTED_MEDIA_TYPE, RANGE_NOT_SATISFIABLE, EXPECTATION_FAILED, IM_A_TEAPOT, MISDIRECTED_REQUEST, UNPROCESSABLE_ENTITY, LOCKED, FAILED_DEPENDENCY, TOO_EARLY, UPGRADE_REQUIRED, PRECONDITION_REQUIRED, TOO_MANY_REQUESTS, REQUEST_HEADER_FIELDS_TOO_LARGE, UNAVAILABLE_FOR_LEGAL_REASONS
-
-
-}
