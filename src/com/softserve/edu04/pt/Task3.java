@@ -31,6 +31,3 @@ public class Task3 {
     }
 }
 
-enum Continent {//Move to file Continent.java
-    ASIA, AFRICA, NORTH_AMERICA, SOUTH_AMERICA, EUROPE, AUSTRALIA, ANTARCTICA
-}
