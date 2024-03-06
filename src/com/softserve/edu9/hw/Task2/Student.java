@@ -48,7 +48,7 @@ public class Student {
         this.grades = grades;
     }
 
-    public double getAverageGrade() {
+    public double getAverageGrade() {//Good
         int sumOfGrades = 0;
         for (int grade : grades) {
             sumOfGrades += grade;

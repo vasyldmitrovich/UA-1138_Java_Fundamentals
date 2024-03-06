@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class App {
+public class App {//Nice all is good
     public static void main(String[] args) {
         List<Integer> myCollection = new ArrayList<>();
         for (int i = 0; i < 10; i++) {

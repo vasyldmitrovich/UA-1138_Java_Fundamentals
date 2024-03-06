@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 import static java.lang.System.in;
 
-public class App {
+public class App {//Ok
     public static void main(String[] args) {
         Scanner scanner = new Scanner(in);
         List<Integer> numbers = new ArrayList<>();
