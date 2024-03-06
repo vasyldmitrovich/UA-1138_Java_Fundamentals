@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class HomeTask02 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Ok
         List<Student> students = new ArrayList<>();
         students.add(new Student(3, 2, "Bob", 4, 3, 3));
         students.add(new Student(1, 11, "Jake", 1, 5, 2));

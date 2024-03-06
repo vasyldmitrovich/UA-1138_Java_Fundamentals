@@ -7,7 +7,7 @@ import static java.lang.System.in;
 public class PrTask01 {
     public static void main(String[] args) {
         while (true) {
-            try {
+            try {//Really nice. Good
                 int length = getNonNegativeIntFromConsole("Enter the length: ");
                 int width = getNonNegativeIntFromConsole("Enter the width: ");
 
@@ -22,7 +22,7 @@ public class PrTask01 {
 
     }
 
-    private static int getNonNegativeIntFromConsole(String prompt) {
+    private static int getNonNegativeIntFromConsole(String prompt) {//Ok
         Scanner scan = new Scanner(in);
         while (true) {
             try {
@@ -39,7 +39,7 @@ public class PrTask01 {
         }
     }
 
-    private static int rectangleArea(int side1, int side2) {
+    private static int rectangleArea(int side1, int side2) {//Very good
         if (side1 < 0 | side2 < 0) {
             throw new IllegalArgumentException("Side should be non negative");
         }

@@ -23,7 +23,7 @@ public class HomeTask02 {
         System.out.println("Map with removed person: " + removePersonFromMap(personMap, "Bob"));
     }
 
-    private static boolean checkForDuplicates(Map<String, String> map) {
+    private static boolean checkForDuplicates(Map<String, String> map) {//Good
         Map<String, Boolean> firstNameAlreadyAdded = new HashMap<>();
         for (String firstName : map.values()) {
             if (firstNameAlreadyAdded.containsKey(firstName)) {
@@ -35,7 +35,7 @@ public class HomeTask02 {
         return false;
     }
 
-    private static Map<String, String> removePersonFromMap(Map<String, String> map, String firstName) {
+    private static Map<String, String> removePersonFromMap(Map<String, String> map, String firstName) {//Nice
         Iterator<Map.Entry<String, String>> iterator = map.entrySet().iterator();
 
         while (iterator.hasNext()) {

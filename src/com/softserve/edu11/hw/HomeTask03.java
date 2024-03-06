@@ -16,7 +16,7 @@ public class HomeTask03 {
 
     }
 
-    private static String findUSCurrencyFormat(String string) {
+    private static String findUSCurrencyFormat(String string) {//Nice
         var regex = "\\$\\d+(\\.\\d{2})?";
         String[] words = string.split(" ");
         StringBuilder result = new StringBuilder();

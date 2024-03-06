@@ -14,7 +14,7 @@ public class HomeTask01 {
 
     }
 
-    private static Set union(Set set1, Set set2) {
+    private static Set union(Set set1, Set set2) {//Good
         for (var item : set1) {
             if (set2.contains(item)) {
                 set2.remove(item);
@@ -24,7 +24,7 @@ public class HomeTask01 {
         return set1;
     }
 
-    private static Set intersect(Set set1, Set set2) {
+    private static Set intersect(Set set1, Set set2) {//Ok
         Set intersectSet = new HashSet();
         for (var item : set1) {
             if (set2.contains(item)) {

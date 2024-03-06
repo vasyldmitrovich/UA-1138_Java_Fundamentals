@@ -8,6 +8,9 @@ public class Student {
     private int gradeEnglish;
     private int gradePhysics;
 
+
+    //Always add constructor without parameters
+
     public Student(int course, int group, String name, int gradeMath, int gradeEnglish, int gradePhysics) {
         this.course = course;
         this.group = group;

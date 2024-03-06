@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-public class HomeTask01 {
+public class HomeTask01 {//Nice to see how you do separate methods for each simple logic Nice...
     public static void main(String[] args) {
         List<Integer> myCollection = generateRandomList(10, -15, 15);
 
