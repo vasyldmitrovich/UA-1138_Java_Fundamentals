@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 import static java.lang.System.in;
 
-public class PrTask02 {
+public class PrTask02 {//Good
     public static void main(String[] args) {
         Scanner scan = new Scanner(in);
         List<Integer> numbers = new ArrayList<>();

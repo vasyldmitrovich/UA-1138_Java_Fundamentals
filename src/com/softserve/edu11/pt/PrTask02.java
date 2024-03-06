@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import static java.lang.System.in;
 
-public class PrTask02 {
+public class PrTask02 {//Nice
     public static void main(String[] args) {
         Scanner scan = new Scanner(in);
         System.out.println("Enter lastname: ");

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import static java.lang.System.in;
 
-public class PrTask03 {
+public class PrTask03 {//Good
     public static void main(String[] args) {
         Scanner scan = new Scanner(in);
         for (int i = 0; i < 5; i++) {

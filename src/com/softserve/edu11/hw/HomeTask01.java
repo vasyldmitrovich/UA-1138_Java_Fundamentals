@@ -5,7 +5,7 @@ import java.util.Scanner;
 import static java.lang.System.in;
 
 public class HomeTask01 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Good
         Scanner scan = new Scanner(in);
         System.out.println("Enter the sentence of five words: ");
         String sentence = scan.nextLine();

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PrTask01 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Nice
         List<HeavyBox> boxes = new ArrayList<>();
         boxes.add(new HeavyBox(12, "Cups"));
         boxes.add(new HeavyBox(60, "Tables"));
