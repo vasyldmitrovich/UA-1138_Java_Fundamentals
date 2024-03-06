@@ -2,7 +2,7 @@ package com.softserve.edu11.hw;
 
 import java.util.Scanner;
 
-public class Hw1 {
+public class Hw1 {//All good
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a five word sentence:");

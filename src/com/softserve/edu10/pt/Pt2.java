@@ -6,7 +6,7 @@ import java.util.*;
 import static com.softserve.edu01.hw.App.scanner;
 import static java.lang.System.in;
 
-public class Pt2 {
+public class Pt2 {//Good
     public static void main(String[] args) {
         var register = new EmployeeManagementSystem();
         register.run();

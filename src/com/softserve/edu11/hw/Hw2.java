@@ -2,7 +2,7 @@ package com.softserve.edu11.hw;
 
 import java.util.Scanner;
 
-public class Hw2 {
+public class Hw2 {//Good
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

@@ -5,7 +5,7 @@ import java.util.*;
 import static java.lang.System.in;
 
 public class Hw1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Good
         Random random =  new Random();
         List<Integer> numbers = new ArrayList<>();
         for (int i = 0; i < 10; i++) {

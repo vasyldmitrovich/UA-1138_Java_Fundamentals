@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Pt1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Ok
         List<HeavyBox> boxes = new ArrayList<>();
         boxes.add(new HeavyBox(12, "cups"));
         boxes.add(new HeavyBox(10, "plates"));

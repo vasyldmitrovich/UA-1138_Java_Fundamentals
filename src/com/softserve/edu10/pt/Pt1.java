@@ -7,7 +7,7 @@ import java.util.Scanner;
 import static java.lang.System.in;
 
 public class Pt1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Ok
         Map<Integer, String> employeeMap = new HashMap<>();
         employeeMap.put(1, "Alice");
         employeeMap.put(2, "Alex");

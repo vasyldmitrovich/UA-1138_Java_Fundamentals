@@ -2,7 +2,7 @@ package com.softserve.edu10.hw;
 
 import java.util.*;
 
-public class Hw2 {
+public class Hw2 {//Good
     public static void main(String[] args) {
         Map<String, String> personMap = new HashMap<>();
         personMap.put("Smith", "John");
