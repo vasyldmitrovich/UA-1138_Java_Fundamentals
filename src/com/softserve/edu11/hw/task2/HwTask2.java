@@ -2,7 +2,7 @@ package com.softserve.edu11.hw.task2;
 
 import java.util.Scanner;
 
-public class HwTask2 {
+public class HwTask2 {//Nice
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a sentence: ");

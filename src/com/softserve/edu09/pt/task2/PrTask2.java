@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class PrTask2 {
+public class PrTask2 {//Good
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         List<Integer> numbers = new ArrayList<>();

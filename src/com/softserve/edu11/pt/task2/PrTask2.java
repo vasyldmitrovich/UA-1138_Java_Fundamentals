@@ -2,7 +2,7 @@ package com.softserve.edu11.pt.task2;
 
 import java.util.Scanner;
 
-public class PrTask2 {
+public class PrTask2 {//Nice all good
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter lastname:");

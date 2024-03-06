@@ -2,7 +2,7 @@ package com.softserve.edu10.hw.task2;
 
 import java.util.*;
 
-public class HwTask2 {
+public class HwTask2 {//Good
     public static void main(String[] args) {
         Map<String, String> personMap = new HashMap<>();
         populate(personMap);

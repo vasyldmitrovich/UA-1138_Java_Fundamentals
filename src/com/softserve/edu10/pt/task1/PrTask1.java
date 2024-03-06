@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class PrTask1 {
+public class PrTask1 {//Ok
     public static void main(String[] args) {
         Map<Integer, String> employeeMap = new HashMap<>();
         employeeMap.put(1, "Alice");

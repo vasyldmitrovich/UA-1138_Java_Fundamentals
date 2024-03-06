@@ -9,7 +9,7 @@ public class Student {
     private int course;
     private Map<String, Integer> grades;
 
-
+    //This three method move after getters and setters
     public double calculateGrade() {
         double sum = 0;
         for (int grade : grades.values()) {

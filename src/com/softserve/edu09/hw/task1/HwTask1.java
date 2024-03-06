@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Random;
 
 public class HwTask1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Too mach code in main method separate logic in some methods and call this method here
         List<Integer> myCollection = new ArrayList<>();
         Random random = new Random();
         for (int i = 0; i < 10; i++) {

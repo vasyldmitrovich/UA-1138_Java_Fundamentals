@@ -1,7 +1,7 @@
 package com.softserve.edu09.pt.task1;
 
 public class HeavyBox {
-    private int weigth;
+    private int weigth;//Maybe weight not weigth
     private String content;
 
     public HeavyBox(int weigth, String content) {

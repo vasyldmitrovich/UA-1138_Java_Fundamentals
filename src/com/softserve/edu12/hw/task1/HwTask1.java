@@ -12,13 +12,13 @@ public class HwTask1 {
             double secondNumber = scanner.nextDouble();
             double res = div(firstNumber, secondNumber);
             System.out.println(res);
-        } catch (Exception e) {
+        } catch (Exception e) {//catch specific exception not any Exception
             System.out.println("You cannot divide by zero");
         }
 
     }
 
-    public static double div(double firstNumber, double secondNumber) throws ArithmeticException {
+    public static double div(double firstNumber, double secondNumber) throws ArithmeticException {//Good
         if (secondNumber == 0) {
             throw new ArithmeticException("You cannot divide by zero");
         }

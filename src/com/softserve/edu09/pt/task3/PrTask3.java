@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-public class PrTask3 {
+public class PrTask3 {//Ok
     public static void main(String[] args) {
         List<Integer> myCollection = new ArrayList<>();
         Random random = new Random();

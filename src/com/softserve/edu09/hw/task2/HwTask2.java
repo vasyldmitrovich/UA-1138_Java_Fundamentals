@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HwTask2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Good
         List<Student> students = new ArrayList<>();
         Student student1 = new Student("Bob", "31", 3);
         student1.addGrade("Math", 3);

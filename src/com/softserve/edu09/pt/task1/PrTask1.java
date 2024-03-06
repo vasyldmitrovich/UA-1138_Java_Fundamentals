@@ -3,7 +3,7 @@ package com.softserve.edu09.pt.task1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PrTask1 {
+public class PrTask1 {//Good
     public static void main(String[] args) {
         List<HeavyBox> boxes = new ArrayList<>();
         boxes.add(new HeavyBox(12, "cups"));

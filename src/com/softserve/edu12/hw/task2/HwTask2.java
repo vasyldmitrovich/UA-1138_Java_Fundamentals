@@ -16,12 +16,12 @@ public class HwTask2 {
             for (int number : numbers) {
                 System.out.print(number + " ");
             }
-        } catch (Exception e) {
+        } catch (Exception e) {//The same here
             System.out.println("An error occurred: " + e.getMessage());
         }
     }
 
-    public static int readNumber(int start, int end) {
+    public static int readNumber(int start, int end) {//Good
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number between " + start + " and " + end);
         while (true) {
