@@ -1,6 +1,6 @@
 package com.softserve.edu06.pt.Task3;
 
-class ColorLine extends Line {
+class ColorLine extends Line {//ok
     private String color;
 
     public ColorLine(Point startPoint, Point endPoint, String color) {

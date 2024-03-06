@@ -1,6 +1,6 @@
 package com.softserve.edu06.pt.Task3;
 
-class Line {
+class Line {//ok
     private Point startPoint;
     private Point endPoint;
 

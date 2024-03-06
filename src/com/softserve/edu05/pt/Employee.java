@@ -5,6 +5,8 @@ class Employee {
     private int departmentNumber;
     private int salary;
 
+    //Add constructor without parameters
+
     public Employee(String name, int departmentNumber, int salary) {
         this.name = name;
         this.departmentNumber = departmentNumber;

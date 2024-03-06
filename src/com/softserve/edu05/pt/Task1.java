@@ -3,7 +3,7 @@ package com.softserve.edu05.pt;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Task1 {
+public class Task1 {//Good
 
     public static void main(String[] args) {
 

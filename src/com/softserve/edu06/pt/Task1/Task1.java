@@ -1,6 +1,6 @@
 package com.softserve.edu06.pt.Task1;
 
-public class Task1 {
+public class Task1 {//ok
     public static void main(String[] args) {
         System.out.println("Test ClassA.");
         ClassA a = new ClassA();

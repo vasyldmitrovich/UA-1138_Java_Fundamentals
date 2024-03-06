@@ -1,6 +1,6 @@
 package com.softserve.edu06.pt.Task3;
 
-public class Main {
+public class Main {//good
     public static void main(String[] args) {
         Line[] lines = new Line[3];
         lines[0] = new Line(new Point(0, 0), new Point(1, 1));

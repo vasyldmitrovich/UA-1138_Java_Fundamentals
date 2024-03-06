@@ -3,7 +3,7 @@ package com.softserve.edu07.hw.Task1;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class Main {
+public class Main {//ok
     public static void main(String[] args) {
         Payment[] employees = {
                 new SalariedEmployee("John", "SSN001", 5000),

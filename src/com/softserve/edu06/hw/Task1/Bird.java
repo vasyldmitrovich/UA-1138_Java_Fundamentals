@@ -11,6 +11,7 @@ abstract class Bird {
 
     public abstract void fly();
 
+    //this method is similar to getters bun not getters (use getters)
     public boolean hasFeathers() {
         return feathers;
     }
