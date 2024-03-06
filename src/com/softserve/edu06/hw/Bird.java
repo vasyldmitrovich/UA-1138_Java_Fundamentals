@@ -1,7 +1,7 @@
 package com.softserve.edu06.hw;
 
 abstract class Bird {
-    public String feathers;
+    public String feathers;//Make private and add getters and setters
     public boolean layEggs;
 
     public abstract void fly();

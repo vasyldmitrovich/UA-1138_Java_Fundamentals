@@ -30,7 +30,7 @@ class FullName {
     }
 }
 
-abstract class Person {
+abstract class Person {//Class Person should not be abstract
     private FullName fullName;
     private int age;
 
