@@ -11,6 +11,7 @@ public class Homework2 {
         int number2;
         int number3;
 
+        //Move next logic to some method and call this method here
         System.out.println("Input first number: ");
         number1 = scanner.nextInt();
         System.out.println("Input second number: ");

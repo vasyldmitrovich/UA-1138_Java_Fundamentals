@@ -13,7 +13,7 @@ public class Car {
         this.engineCapacity = engineCapacity;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {//main method should not be here
         Scanner scanner = new Scanner(System.in);
         Car car1 = new Car("Sport car", 2020, 800);
         Car car2 = new Car("Pickup truck", 2022, 437);
@@ -29,6 +29,7 @@ public class Car {
         car4.yearProduction = scanner.nextInt();
         int[] sort = {car1.yearProduction, car2.yearProduction, car3.yearProduction, car4.yearProduction};
 
+        //Do not write all logic in main method divide it to separate methods
         for (int i = 0; i < sort.length - 1; i++) {
             for (int j = 0; j < sort.length - i - 1; j++) {
                 if (sort[j] > sort[j + 1]) {

@@ -31,7 +31,7 @@ public class PracticalTask3 {
         };
     }
 
-    enum Continent {
+    enum Continent {//Move to Continent.java file not here
         EUROPE("Europe"),
         ASIA("Asia"),
         AFRICA("Africa"),

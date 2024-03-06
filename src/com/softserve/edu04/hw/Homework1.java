@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Homework1 {
 
-    public static Scanner scanner = new Scanner(System.in);
+    public static Scanner scanner = new Scanner(System.in);//Ok
 
     public static void main(String[] args) {
         double number;

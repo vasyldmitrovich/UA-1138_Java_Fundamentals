@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Homework1 {
 
     public static Scanner scanner = new Scanner(System.in);
-    private static double a;
+    private static double a;//without static
     private static double b;
     private static double c;
     private double p;
@@ -33,8 +33,3 @@ public class Homework1 {
         System.out.println(area);
     }
 }
-
-
-
-
-/**/

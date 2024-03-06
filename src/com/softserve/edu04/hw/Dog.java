@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Dog {
     Scanner scanner = new Scanner(System.in);
-    String name;
+    String name;//Add to all fields access modifier
     int age;
     String breed;
     Dog(String name, int age, String breed) {
@@ -13,13 +13,14 @@ public class Dog {
         this.breed = breed;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Move main method to some class like App.java
 
         Dog dog1 = new Dog("Ruddy", 5, Breed.Bulldog.breed);
         Dog dog2 = new Dog("Tobi", 12, Breed.Husky.breed);
         Dog dog3 = new Dog("Ruddy", 9, Breed.Chihuahua.breed);
 
 
+        //This logic move to some method and call this method here
         if (dog1.age > dog2.age && dog1.age > dog3.age) {
             System.out.println("The name of the oldest dog is " + dog1.name);
             System.out.println("Breed is " + dog1.breed);

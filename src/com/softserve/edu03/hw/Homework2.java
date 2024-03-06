@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Homework2 {
     public static Scanner scanner = new Scanner(System.in);
-    private static double firstNumber;
+    private static double firstNumber;//Without static
     private static double secondNumber;
     private static double thirdNumber;
 

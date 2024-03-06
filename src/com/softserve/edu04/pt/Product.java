@@ -1,7 +1,7 @@
 package com.softserve.edu04.pt;
 
 public class Product {
-    String name;
+    String name;//Add to all fields access modifier private
     double price;
     int quantity;
     Product(String name, double price, int quantity) {
@@ -10,7 +10,7 @@ public class Product {
         this.quantity = quantity;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Move to some file like App.java not here
 
         Product product1 = new Product("Milk", 40, 6);
         Product product2 = new Product("Ice cream", 25, 10);
