@@ -31,5 +31,5 @@ public abstract class Person {
                 + ", Age: " + getAge();
     }
 
-    public abstract String activity();
+    public abstract String activity();//This is abstract class and you can skip public abstract method will have that by default
 }

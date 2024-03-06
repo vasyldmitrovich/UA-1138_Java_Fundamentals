@@ -1,6 +1,6 @@
 package com.softserve.edu07;
 
-public abstract class Employee implements Payment, Comparable<Employee> {
+public abstract class Employee implements Payment, Comparable<Employee> {//Nice
     private String employeeId;
     private String name;
 

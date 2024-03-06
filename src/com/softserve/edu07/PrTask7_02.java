@@ -34,7 +34,7 @@ abstract class Person {
     ;
 }
 
-abstract class Staff extends Person {
+abstract class Staff extends Person {//Good
     abstract int salary();
 
     public Staff(String name) {
