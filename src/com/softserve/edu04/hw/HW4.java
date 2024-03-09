@@ -3,7 +3,7 @@
 import java.util.Scanner;
 
 public class HW4 {
-        public static void main(String[] args) {
+        public static void hw10(String[] args) {
             final Scanner SCANNER = new Scanner(System.in);
             System.out.println("Input number of students ");
             int quantity = SCANNER.nextInt();

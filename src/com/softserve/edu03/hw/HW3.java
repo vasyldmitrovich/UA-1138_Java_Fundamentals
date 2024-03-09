@@ -50,7 +50,7 @@ public class HW3 {
     }
 
 
-    public void main(String... args) {
+    public void hw10(String... args) {
 
         Person person = new Person();
 

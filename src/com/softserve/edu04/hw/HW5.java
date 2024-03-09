@@ -1,7 +1,7 @@
 /*package com.softserve.edu04.hw;
 
 public class HW5 {
-    public static void main(String[] args) {
+    public static void hw10(String[] args) {
 
 
         Dog dog1 = new Dog("Bob", 2, Dog.getBreed());

@@ -1,4 +1,4 @@
-package com.softserve.edu10.PT;
+package com.softserve.edu11.PT;
 
 import java.util.Scanner;
 
