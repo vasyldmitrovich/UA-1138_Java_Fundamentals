@@ -9,7 +9,7 @@ import static java.lang.System.in;
 public class pt01 {
 
 
-    public static void main(String[] args) {//Ok
+    public static void main(String[] args) {
         Map<Integer, String> employeeMap = new HashMap<>();
         employeeMap.put(1, "Alice");
         employeeMap.put(2, "Alex");
