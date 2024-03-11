@@ -1,4 +1,4 @@
-package com.softserve.edu8.pt.hw.Task1_2;
+package com.softserve.edu8.hw.Task1_2;
 
 public class Student extends Person implements Cloneable {//Ok
     private int amountOfCourses;

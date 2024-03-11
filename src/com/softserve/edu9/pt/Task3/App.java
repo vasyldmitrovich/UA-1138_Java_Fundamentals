@@ -3,6 +3,7 @@ package com.softserve.edu9.pt.Task3;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.UUID;
 
 public class App {
     public static void main(String[] args) {
@@ -38,5 +39,8 @@ public class App {
         copyMyCollection.add(5, -4);
 
         System.out.println(copyMyCollection);
+
+        UUID uuid = UUID.randomUUID();
+        System.out.println(uuid);
     }
 }
