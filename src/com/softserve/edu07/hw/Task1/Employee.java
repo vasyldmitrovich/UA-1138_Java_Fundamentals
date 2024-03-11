@@ -1,6 +1,6 @@
 package com.softserve.edu07.hw.Task1;
 
-public abstract class Employee {
+public abstract class Employee implements Payment {
     protected String employeeName;
 
     public Employee(String employeeName) {

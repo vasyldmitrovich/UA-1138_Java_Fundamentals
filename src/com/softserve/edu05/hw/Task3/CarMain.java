@@ -1,5 +1,6 @@
 package com.softserve.edu05.hw.Task3;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class CarMain {
@@ -26,12 +27,17 @@ public class CarMain {
             }
         }
 
-        Car.sortCarsByYear(cars);
+        sortCarsByYear(cars);
+
         System.out.println("\nSorted cars by year of production:");
         for (Car car : cars) {
             System.out.println(car);
         }
 
         scanner.close();
+    }
+
+    public static void sortCarsByYear(Car[] cars) {
+        Arrays.sort(cars, (car1, car2) -> car2.getYearProduction() - car1.getYearProduction());
     }
 }

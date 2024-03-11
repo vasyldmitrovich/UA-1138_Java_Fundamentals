@@ -1,7 +1,5 @@
 package com.softserve.edu05.hw.Task3;
 
-import java.util.Arrays;
-
 public abstract class Car {//Good
     protected String type;
     private int yearProduction;
@@ -13,9 +11,6 @@ public abstract class Car {//Good
         this.capacity = capacity;
     }
 
-    public static void sortCarsByYear(Car[] cars) {//This method could be in CarMain.java class
-        Arrays.sort(cars, (car1, car2) -> car2.getYearProduction() - car1.getYearProduction());
-    }
 
     public int getYearProduction() {
         return yearProduction;

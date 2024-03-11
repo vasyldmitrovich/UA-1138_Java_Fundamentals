@@ -1,6 +1,6 @@
 package com.softserve.edu07.hw.Task1;
 
-public class ContractEmployee extends Employee implements Payment {//make implements Payment in class Employee
+public class ContractEmployee extends Employee implements Payment {
     private String federalTaxId;
     private double hourlyRate;
     private int hoursWorked;
