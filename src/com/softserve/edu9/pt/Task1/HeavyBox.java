@@ -1,6 +1,6 @@
 package com.softserve.edu9.pt.Task1;
 
-public class HeavyBox {
+public class HeavyBox {//Good
     private int weight;
     private String content;
 

@@ -3,7 +3,7 @@ package com.softserve.edu9.hw.Task2;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StudentManager {
+public class StudentManager {//Good
     List<Student> students = new ArrayList<>();
 
     public StudentManager() {

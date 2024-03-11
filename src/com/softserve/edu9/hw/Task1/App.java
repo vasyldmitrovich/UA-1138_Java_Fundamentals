@@ -3,7 +3,7 @@ package com.softserve.edu9.hw.Task1;
 import java.sql.SQLOutput;
 import java.util.*;
 
-public class App {
+public class App {//Very nice, i glad to see code like that
     static Random random = new Random();
     public static void main(String[] args) {
 

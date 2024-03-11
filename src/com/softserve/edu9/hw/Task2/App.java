@@ -1,6 +1,6 @@
 package com.softserve.edu9.hw.Task2;
 
-public class App {
+public class App {//Nice
     public static void main(String[] args) {
         // Create student collection
         StudentManager studentManager = new StudentManager();
