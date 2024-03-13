@@ -4,6 +4,8 @@ public class FullName {
     private String firstName;
     private String lastName;
 
+    //Add constructors
+
     public String getFirstName() {
         return firstName;
     }

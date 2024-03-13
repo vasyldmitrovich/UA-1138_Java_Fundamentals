@@ -24,7 +24,7 @@ public class PrTask8_01 {
 }
 
 class Department implements Cloneable {
-    String name;
+    String name;//Add access modifier
     Address address;
 
     @Override
