@@ -48,7 +48,7 @@ class Sedan extends Car {
     }
 }
 
-public class CarModels {
+public class CarModels {//Do not write all this classes in one file here
     public static void main(String[] args) {
         Car[] cars = new Car[2];
         cars[0] = new Truck("Ford F", 180, 2022);

@@ -1,6 +1,6 @@
 package com.softserve.edu07.pt;
 
-public class Ptask1 {
+public class Ptask1 {//All good but write each class in separate file like Animal.java Cat.java etc...
     public static void main(String[] args) {
         Animal[] animals = new Animal[2];
         animals[0] = new Cat();

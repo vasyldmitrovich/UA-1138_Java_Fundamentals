@@ -32,7 +32,7 @@ abstract class Employee {
     public abstract double calculateAverageMonthlyWage();
 }
 
-class SalariedEmployee extends Employee implements Payment {
+class SalariedEmployee extends Employee implements Payment {//Implement interface Payment in Employee class
     private String socialSecurityNumber;
 
     public SalariedEmployee(String employeeId, String socialSecurityNumber) {
