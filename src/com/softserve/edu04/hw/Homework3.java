@@ -37,7 +37,7 @@ public class Homework3 {
 
     }
 
-    enum HTTPError {
+    enum HTTPError {//Move to file HTTPError.java not here
         StatusCode400(400, "Bad Request"),
         StatusCode401(401, "Unauthorized"),
         StatusCode402(402, "Payment Required"),

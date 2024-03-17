@@ -34,7 +34,7 @@ public class PracticalTask2 {
         }
     }
 
-    enum DayOfWeek {
+    enum DayOfWeek {//Move to DayOfWeek.java
         MONDAY("Monday", "Понеділок"),
         TUESDAY("Tuesday", "Вівторок"),
         WEDNESDAY("Wednesday", "Середа"),

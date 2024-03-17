@@ -8,12 +8,15 @@ public class Person {
     private static String lastName;
     Scanner scanner = new Scanner(System.in);
     private int bithYear;
+
+    //Add constructor without parameters
+
     private Person(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Move main method to some class like App.java
         Person person1 = new Person(firstName, lastName);
         person1.input();
         person1.changeName(firstName, lastName);

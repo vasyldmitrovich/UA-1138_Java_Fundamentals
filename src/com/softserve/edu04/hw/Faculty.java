@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Faculty {
     static Scanner scanner = new Scanner(System.in);
-    static int numberOfStudents;
+    static int numberOfStudents;//Add access modifier private
     static String seasons;
 
     public static void main(String[] args) {
@@ -36,7 +36,7 @@ public class Faculty {
             return Season.FALL.season;
     }
 
-    enum Season {
+    enum Season {//Move to file Season.java
         WINTER("Winter exams period"),
         SPRING("Second semester"),
         SUMMER("Vacation period"),

@@ -3,7 +3,7 @@ package com.softserve.edu03.pt;
 import java.util.Scanner;
 
 public class Employee {
-    private static int totalSum;
+    private static int totalSum;//You do not use this variable
     Scanner scanner = new Scanner(System.in);
     private String name;
     private int rate;
@@ -42,7 +42,7 @@ public class Employee {
     }
 
     public void output() {
-        System.out.println("The employee's name is " + toString());
+        System.out.println("The employee's name is " + toString());//Without toString
         System.out.println("The employee's salary " + getSalary());
         System.out.println("The employee's bonuses " + getBonuses());
     }
