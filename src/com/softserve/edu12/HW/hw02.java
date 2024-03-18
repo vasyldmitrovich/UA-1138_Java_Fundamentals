@@ -2,6 +2,8 @@ package com.softserve.edu12.HW;
 
 import java.util.Scanner;
 
+import static com.softserve.edu01.hw.App.scanner;
+
 
 public class hw02 {
     public static void main(String[] args) {
