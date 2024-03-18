@@ -1,4 +1,4 @@
-package com.softserve.edu6.pt.task2;
+package com.softserve.edu06.pt.task2;
 
 public class Truck extends Car {
     Truck(String model, double maxSpeed, int yearOfProduction) {

@@ -1,4 +1,4 @@
-package com.softserve.edu6.hw.task2;
+package com.softserve.edu06.hw.task2;
 
 public class Developer extends Employee {
 
