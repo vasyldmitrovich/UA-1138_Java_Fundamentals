@@ -1,0 +1,4 @@
+Number of lines in file1.txt: 25
+The longest line in file1.txt: Dynamic and driven individual with a background in food service, transitioning into the field of Information Technology (IT). Experienced as both a barista and a chef in a Japanese restaurant, demonstrating adaptability, strong work ethic, and a passion for learning. Eager to leverage transferable skills and embark on a new career path in IT. 
+Name: Illia Voitsekhovskyi
+Birthday Date: 13.06.1997

@@ -1,0 +1,17 @@
+private class MyClass {
+    private int publicVariable;
+    private String privateVariable;
+    
+    private MyClass() {
+        this.publicVariable = 0;
+        this.privateVariable = "Hello";
+    }
+    
+    private void publicMethod() {
+        System.out.println("This is a private method.");
+    }
+    
+    private void privateMethod() {
+        System.out.println("This is a private method.");
+    }
+}
