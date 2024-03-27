@@ -1,0 +1,18 @@
+package com.softserve.edu16;
+
+private class Employee {
+
+    String name;
+
+    private Employee(String name) {
+        this.name = name;
+    }
+
+    private String getName() {
+        return name;
+    }
+
+    private void setName(String name) {
+        this.name = name;
+    }
+}

@@ -1,0 +1,12 @@
+Name: Ganna Samokhval
+Date of birth: 24.11.1987
+Skills:
+    IT Areas:
+        -Business analysis
+        -Project management
+
+Summary of qualifications:
+    Now I am serving in the military administration body, performing the duties of a lawyer.
+    I am an entry-level specialist with less than 1 year of business analysis and project management in the IT sphere.
+    Also, I have over 15 years of diverse experience in complex legal support of business, which includes running a business, analysing law aspects, structuring business, improving typical contracts including elicitation of customer requirements, representation and protection of customer’s interests in courts.
+
